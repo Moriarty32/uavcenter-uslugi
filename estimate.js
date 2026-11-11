@@ -27,7 +27,7 @@
     dialog.querySelectorAll('.estimate-steps li').forEach((li,i)=>{li.classList.toggle('current',i===step);li.classList.toggle('done',i<step);if(i===step)li.setAttribute('aria-current','step');else li.removeAttribute('aria-current');});
     back.hidden=step===0;next.hidden=step===2;submit.hidden=step!==2;
     if(step===2)summary();
-    if(focus){sections[step].querySelector('h3').focus({preventScroll:true});dialog.scrollTop=0;form.scrollTop=0;}
+    if(focus){sections[step].querySelector('h3').focus({preventScroll:true});dialog.scrollTop=0;form.scrollTop=0;dialog.querySelector('.estimate-layout').scrollTop=0;}
   }
   function validate(){
     error.hidden=true;
@@ -52,7 +52,7 @@
   dialog.addEventListener('click',event=>{if(event.target!==dialog)return;const r=dialog.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)dialog.close();});
   next.addEventListener('click',()=>{if(validate())showStep(step+1);});
   back.addEventListener('click',()=>showStep(Math.max(0,step-1)));
-  form.addEventListener('submit',event=>{event.preventDefault();if(!validate())return;if(step<2){showStep(step+1);return;}sections.forEach(section=>{section.hidden=true;});controls.hidden=true;complete.hidden=false;complete.focus({preventScroll:true});form.scrollTop=0;dialog.scrollTop=0;});
+  form.addEventListener('submit',event=>{event.preventDefault();if(!validate())return;if(step<2){showStep(step+1);return;}sections.forEach(section=>{section.hidden=true;});controls.hidden=true;complete.hidden=false;complete.focus({preventScroll:true});form.scrollTop=0;dialog.scrollTop=0;dialog.querySelector('.estimate-layout').scrollTop=0;});
   form.addEventListener('input',()=>{form.elements.contact.setCustomValidity('');error.hidden=true;syncArea();});
   form.addEventListener('change',syncArea);
   form.querySelectorAll('[data-area]').forEach(button=>button.addEventListener('click',()=>{form.elements.unknownArea.checked=false;form.elements.unit.value='ha';form.elements.area.value=button.dataset.area;syncArea();form.elements.unit.dispatchEvent(new Event('change',{bubbles:true}));}));

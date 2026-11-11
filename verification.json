@@ -1,5 +1,5 @@
 {
-  "testedAt": "2026-11-11T15:18:01.396Z",
+  "testedAt": "2026-11-11T15:29:58.952Z",
   "widths": [
     {
       "width": 320,
@@ -91,176 +91,1688 @@
   ],
   "errors": [],
   "failedRequests": [],
-  "motion": {
-    "headingMasks": true,
-    "finiteAnimations": true,
-    "rolloverText": true,
-    "duplicatesAriaHidden": true,
-    "scrollLinkedPhoto": true,
-    "reducedMotionResetsParallax": true,
-    "reducedMotionStopsRollover": true,
-    "formSuccessStateContrast": true
+  "priorVersions": {
+    "motion": {
+      "headingMasks": true,
+      "finiteAnimations": true,
+      "rolloverText": true,
+      "duplicatesAriaHidden": true,
+      "scrollLinkedPhoto": true,
+      "reducedMotionResetsParallax": true,
+      "reducedMotionStopsRollover": true,
+      "formSuccessStateContrast": true
+    },
+    "refinement": {
+      "checks": [
+        "Menus: hover desktop, click mobile, one open panel, Escape, panel geometry and accessibility",
+        "Quote: validation, area conversions, unknown area, product selection, back preserves data, summary, export, Escape and focus restore",
+        "Button hover: directional fill, rolling label, reduced-motion mode"
+      ],
+      "accessibility": [
+        {
+          "width": 390,
+          "state": "menu0",
+          "violations": []
+        },
+        {
+          "width": 390,
+          "state": "menu1",
+          "violations": []
+        },
+        {
+          "width": 390,
+          "state": "menu2",
+          "violations": []
+        },
+        {
+          "width": 768,
+          "state": "menu0",
+          "violations": []
+        },
+        {
+          "width": 768,
+          "state": "menu1",
+          "violations": []
+        },
+        {
+          "width": 768,
+          "state": "menu2",
+          "violations": []
+        },
+        {
+          "width": 1440,
+          "state": "menu0",
+          "violations": []
+        },
+        {
+          "width": 1440,
+          "state": "menu1",
+          "violations": []
+        },
+        {
+          "width": 1440,
+          "state": "menu2",
+          "violations": []
+        },
+        {
+          "width": 320,
+          "state": "quote-step2",
+          "violations": []
+        },
+        {
+          "width": 320,
+          "state": "quote-step1",
+          "violations": []
+        },
+        {
+          "width": 320,
+          "state": "quote-step0",
+          "violations": []
+        },
+        {
+          "width": 390,
+          "state": "quote-step2",
+          "violations": []
+        },
+        {
+          "width": 390,
+          "state": "quote-step1",
+          "violations": []
+        },
+        {
+          "width": 390,
+          "state": "quote-step0",
+          "violations": []
+        },
+        {
+          "width": 768,
+          "state": "quote-step2",
+          "violations": []
+        },
+        {
+          "width": 768,
+          "state": "quote-step1",
+          "violations": []
+        },
+        {
+          "width": 768,
+          "state": "quote-step0",
+          "violations": []
+        },
+        {
+          "width": 1440,
+          "state": "quote-step2",
+          "violations": []
+        },
+        {
+          "width": 1440,
+          "state": "quote-step1",
+          "violations": []
+        },
+        {
+          "width": 1440,
+          "state": "quote-step0",
+          "violations": []
+        }
+      ],
+      "geometry": [
+        {
+          "width": 320,
+          "scrollWidth": 320,
+          "heroWidth": 320,
+          "heroHeight": 778,
+          "topGap": 26
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "heroWidth": 390,
+          "heroHeight": 814,
+          "topGap": 26
+        },
+        {
+          "width": 768,
+          "scrollWidth": 768,
+          "heroWidth": 768,
+          "heroHeight": 570,
+          "topGap": 32
+        },
+        {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "heroWidth": 1440,
+          "heroHeight": 640,
+          "topGap": 32
+        },
+        {
+          "width": 1920,
+          "scrollWidth": 1920,
+          "heroWidth": 1920,
+          "heroHeight": 720,
+          "topGap": 32
+        },
+        {
+          "width": 2560,
+          "scrollWidth": 2560,
+          "heroWidth": 2560,
+          "heroHeight": 826,
+          "topGap": 32
+        }
+      ],
+      "errors": []
+    },
+    "responsiveV5": {
+      "widths": [
+        {
+          "width": 320,
+          "scroll": 320,
+          "containers": [
+            {
+              "w": 284,
+              "left": 18
+            },
+            {
+              "w": 284,
+              "left": 18
+            },
+            {
+              "w": 284,
+              "left": 18
+            },
+            {
+              "w": 284,
+              "left": 18
+            },
+            {
+              "w": 284,
+              "left": 18
+            },
+            {
+              "w": 284,
+              "left": 18
+            },
+            {
+              "w": 284,
+              "left": 18
+            },
+            {
+              "w": 284,
+              "left": 18
+            },
+            {
+              "w": 284,
+              "left": 18
+            },
+            {
+              "w": 284,
+              "left": 18
+            }
+          ],
+          "cta": 352.375,
+          "order": [
+            "hero",
+            "page-nav",
+            "price",
+            "results",
+            "projects",
+            "quality",
+            "team",
+            "process",
+            "conditions",
+            "faq",
+            "brief"
+          ],
+          "overflows": []
+        },
+        {
+          "width": 360,
+          "scroll": 360,
+          "containers": [
+            {
+              "w": 324,
+              "left": 18
+            },
+            {
+              "w": 324,
+              "left": 18
+            },
+            {
+              "w": 324,
+              "left": 18
+            },
+            {
+              "w": 324,
+              "left": 18
+            },
+            {
+              "w": 324,
+              "left": 18
+            },
+            {
+              "w": 324,
+              "left": 18
+            },
+            {
+              "w": 324,
+              "left": 18
+            },
+            {
+              "w": 324,
+              "left": 18
+            },
+            {
+              "w": 324,
+              "left": 18
+            },
+            {
+              "w": 324,
+              "left": 18
+            }
+          ],
+          "cta": 339.78125,
+          "order": [
+            "hero",
+            "page-nav",
+            "price",
+            "results",
+            "projects",
+            "quality",
+            "team",
+            "process",
+            "conditions",
+            "faq",
+            "brief"
+          ],
+          "overflows": []
+        },
+        {
+          "width": 390,
+          "scroll": 390,
+          "containers": [
+            {
+              "w": 354,
+              "left": 18
+            },
+            {
+              "w": 354,
+              "left": 18
+            },
+            {
+              "w": 354,
+              "left": 18
+            },
+            {
+              "w": 354,
+              "left": 18
+            },
+            {
+              "w": 354,
+              "left": 18
+            },
+            {
+              "w": 354,
+              "left": 18
+            },
+            {
+              "w": 354,
+              "left": 18
+            },
+            {
+              "w": 354,
+              "left": 18
+            },
+            {
+              "w": 354,
+              "left": 18
+            },
+            {
+              "w": 354,
+              "left": 18
+            }
+          ],
+          "cta": 352.828125,
+          "order": [
+            "hero",
+            "page-nav",
+            "price",
+            "results",
+            "projects",
+            "quality",
+            "team",
+            "process",
+            "conditions",
+            "faq",
+            "brief"
+          ],
+          "overflows": []
+        },
+        {
+          "width": 430,
+          "scroll": 430,
+          "containers": [
+            {
+              "w": 394,
+              "left": 18
+            },
+            {
+              "w": 394,
+              "left": 18
+            },
+            {
+              "w": 394,
+              "left": 18
+            },
+            {
+              "w": 394,
+              "left": 18
+            },
+            {
+              "w": 394,
+              "left": 18
+            },
+            {
+              "w": 394,
+              "left": 18
+            },
+            {
+              "w": 394,
+              "left": 18
+            },
+            {
+              "w": 394,
+              "left": 18
+            },
+            {
+              "w": 394,
+              "left": 18
+            },
+            {
+              "w": 394,
+              "left": 18
+            }
+          ],
+          "cta": 370.234375,
+          "order": [
+            "hero",
+            "page-nav",
+            "price",
+            "results",
+            "projects",
+            "quality",
+            "team",
+            "process",
+            "conditions",
+            "faq",
+            "brief"
+          ],
+          "overflows": []
+        },
+        {
+          "width": 600,
+          "scroll": 600,
+          "containers": [
+            {
+              "w": 564,
+              "left": 18
+            },
+            {
+              "w": 564,
+              "left": 18
+            },
+            {
+              "w": 564,
+              "left": 18
+            },
+            {
+              "w": 564,
+              "left": 18
+            },
+            {
+              "w": 564,
+              "left": 18
+            },
+            {
+              "w": 564,
+              "left": 18
+            },
+            {
+              "w": 564,
+              "left": 18
+            },
+            {
+              "w": 564,
+              "left": 18
+            },
+            {
+              "w": 564,
+              "left": 18
+            },
+            {
+              "w": 564,
+              "left": 18
+            }
+          ],
+          "cta": 423.1875,
+          "order": [
+            "hero",
+            "page-nav",
+            "price",
+            "results",
+            "projects",
+            "quality",
+            "team",
+            "process",
+            "conditions",
+            "faq",
+            "brief"
+          ],
+          "overflows": []
+        },
+        {
+          "width": 768,
+          "scroll": 768,
+          "containers": [
+            {
+              "w": 737.265625,
+              "left": 15.359375
+            },
+            {
+              "w": 737.265625,
+              "left": 15.359375
+            },
+            {
+              "w": 737.265625,
+              "left": 15.359375
+            },
+            {
+              "w": 737.265625,
+              "left": 15.359375
+            },
+            {
+              "w": 737.265625,
+              "left": 15.359375
+            },
+            {
+              "w": 737.265625,
+              "left": 15.359375
+            },
+            {
+              "w": 737.265625,
+              "left": 15.359375
+            },
+            {
+              "w": 737.265625,
+              "left": 15.359375
+            },
+            {
+              "w": 737.265625,
+              "left": 15.359375
+            },
+            {
+              "w": 737.265625,
+              "left": 15.359375
+            },
+            {
+              "w": 737.265625,
+              "left": 15.359375
+            }
+          ],
+          "cta": 511.953125,
+          "order": [
+            "hero",
+            "page-nav",
+            "results",
+            "projects",
+            "price",
+            "quality",
+            "team",
+            "process",
+            "conditions",
+            "faq",
+            "brief"
+          ],
+          "overflows": []
+        },
+        {
+          "width": 820,
+          "scroll": 820,
+          "containers": [
+            {
+              "w": 787.1875,
+              "left": 16.40625
+            },
+            {
+              "w": 787.1875,
+              "left": 16.40625
+            },
+            {
+              "w": 787.1875,
+              "left": 16.40625
+            },
+            {
+              "w": 787.1875,
+              "left": 16.40625
+            },
+            {
+              "w": 787.1875,
+              "left": 16.40625
+            },
+            {
+              "w": 787.1875,
+              "left": 16.40625
+            },
+            {
+              "w": 787.1875,
+              "left": 16.40625
+            },
+            {
+              "w": 787.1875,
+              "left": 16.40625
+            },
+            {
+              "w": 787.1875,
+              "left": 16.40625
+            },
+            {
+              "w": 787.1875,
+              "left": 16.40625
+            },
+            {
+              "w": 787.1875,
+              "left": 16.40625
+            }
+          ],
+          "cta": 518.1875,
+          "order": [
+            "hero",
+            "page-nav",
+            "results",
+            "projects",
+            "price",
+            "quality",
+            "team",
+            "process",
+            "conditions",
+            "faq",
+            "brief"
+          ],
+          "overflows": []
+        },
+        {
+          "width": 1024,
+          "scroll": 1024,
+          "containers": [
+            {
+              "w": 983.03125,
+              "left": 20.484375
+            },
+            {
+              "w": 983.03125,
+              "left": 20.484375
+            },
+            {
+              "w": 983.03125,
+              "left": 20.484375
+            },
+            {
+              "w": 983.03125,
+              "left": 20.484375
+            },
+            {
+              "w": 983.03125,
+              "left": 20.484375
+            },
+            {
+              "w": 983.03125,
+              "left": 20.484375
+            },
+            {
+              "w": 983.03125,
+              "left": 20.484375
+            },
+            {
+              "w": 983.03125,
+              "left": 20.484375
+            },
+            {
+              "w": 983.03125,
+              "left": 20.484375
+            },
+            {
+              "w": 983.03125,
+              "left": 20.484375
+            },
+            {
+              "w": 983.03125,
+              "left": 20.484375
+            }
+          ],
+          "cta": 542.65625,
+          "order": [
+            "hero",
+            "page-nav",
+            "results",
+            "projects",
+            "price",
+            "quality",
+            "team",
+            "process",
+            "conditions",
+            "faq",
+            "brief"
+          ],
+          "overflows": []
+        },
+        {
+          "width": 1440,
+          "scroll": 1440,
+          "containers": [
+            {
+              "w": 1382.390625,
+              "left": 28.796875
+            },
+            {
+              "w": 1382.390625,
+              "left": 28.796875
+            },
+            {
+              "w": 1382.390625,
+              "left": 28.796875
+            },
+            {
+              "w": 1382.390625,
+              "left": 28.796875
+            },
+            {
+              "w": 1382.390625,
+              "left": 28.796875
+            },
+            {
+              "w": 1382.390625,
+              "left": 28.796875
+            },
+            {
+              "w": 1382.390625,
+              "left": 28.796875
+            },
+            {
+              "w": 1382.390625,
+              "left": 28.796875
+            },
+            {
+              "w": 1382.390625,
+              "left": 28.796875
+            },
+            {
+              "w": 1382.390625,
+              "left": 28.796875
+            },
+            {
+              "w": 1382.390625,
+              "left": 28.796875
+            }
+          ],
+          "cta": 619.484375,
+          "order": [
+            "hero",
+            "page-nav",
+            "results",
+            "projects",
+            "price",
+            "quality",
+            "team",
+            "process",
+            "conditions",
+            "faq",
+            "brief"
+          ],
+          "overflows": []
+        },
+        {
+          "width": 1920,
+          "scroll": 1920,
+          "containers": [
+            {
+              "w": 1843.1875,
+              "left": 38.40625
+            },
+            {
+              "w": 1843.1875,
+              "left": 38.40625
+            },
+            {
+              "w": 1843.1875,
+              "left": 38.40625
+            },
+            {
+              "w": 1843.1875,
+              "left": 38.40625
+            },
+            {
+              "w": 1843.1875,
+              "left": 38.40625
+            },
+            {
+              "w": 1843.1875,
+              "left": 38.40625
+            },
+            {
+              "w": 1843.1875,
+              "left": 38.40625
+            },
+            {
+              "w": 1843.1875,
+              "left": 38.40625
+            },
+            {
+              "w": 1843.1875,
+              "left": 38.40625
+            },
+            {
+              "w": 1843.1875,
+              "left": 38.40625
+            },
+            {
+              "w": 1843.1875,
+              "left": 38.40625
+            }
+          ],
+          "cta": 752.0625,
+          "order": [
+            "hero",
+            "page-nav",
+            "results",
+            "projects",
+            "price",
+            "quality",
+            "team",
+            "process",
+            "conditions",
+            "faq",
+            "brief"
+          ],
+          "overflows": []
+        },
+        {
+          "width": 2560,
+          "scroll": 2560,
+          "containers": [
+            {
+              "w": 2457.59375,
+              "left": 51.203125
+            },
+            {
+              "w": 2457.59375,
+              "left": 51.203125
+            },
+            {
+              "w": 2457.59375,
+              "left": 51.203125
+            },
+            {
+              "w": 2457.59375,
+              "left": 51.203125
+            },
+            {
+              "w": 2457.59375,
+              "left": 51.203125
+            },
+            {
+              "w": 2457.59375,
+              "left": 51.203125
+            },
+            {
+              "w": 2457.59375,
+              "left": 51.203125
+            },
+            {
+              "w": 2457.59375,
+              "left": 51.203125
+            },
+            {
+              "w": 2457.59375,
+              "left": 51.203125
+            },
+            {
+              "w": 2457.59375,
+              "left": 51.203125
+            },
+            {
+              "w": 2457.59375,
+              "left": 51.203125
+            }
+          ],
+          "cta": 928.828125,
+          "order": [
+            "hero",
+            "page-nav",
+            "results",
+            "projects",
+            "price",
+            "quality",
+            "team",
+            "process",
+            "conditions",
+            "faq",
+            "brief"
+          ],
+          "overflows": []
+        }
+      ],
+      "selects": [
+        {
+          "w": 390,
+          "name": "object",
+          "keyboard": true,
+          "escape": true,
+          "accessibility": true
+        },
+        {
+          "w": 390,
+          "name": "deadline",
+          "keyboard": true,
+          "escape": true,
+          "accessibility": true
+        },
+        {
+          "w": 390,
+          "name": "unit",
+          "keyboard": true,
+          "escape": true,
+          "accessibility": true
+        },
+        {
+          "w": 1440,
+          "name": "object",
+          "keyboard": true,
+          "escape": true,
+          "accessibility": true
+        },
+        {
+          "w": 1440,
+          "name": "deadline",
+          "keyboard": true,
+          "escape": true,
+          "accessibility": true
+        },
+        {
+          "w": 1440,
+          "name": "unit",
+          "keyboard": true,
+          "escape": true,
+          "accessibility": true
+        }
+      ],
+      "checks": [
+        "Fluid width across all sections from 320 to 2560px; no overflow; mobile CTA above fold; quote precedes portfolio",
+        "All six branded selects: click, keyboard, Escape without closing dialog, synchronized native values, disabled unit and quote summary",
+        "Team photo: opaque throughout animation, no dark overlay, caption outside photo"
+      ],
+      "errors": []
+    }
   },
-  "refinement": {
-    "checks": [
-      "Menus: hover desktop, click mobile, one open panel, Escape, panel geometry and accessibility",
-      "Quote: validation, area conversions, unknown area, product selection, back preserves data, summary, export, Escape and focus restore",
-      "Button hover: directional fill, rolling label, reduced-motion mode"
+  "responsiveV6": {
+    "viewports": [
+      {
+        "width": 320,
+        "height": 568,
+        "page": {
+          "width": 320,
+          "scroll": 320,
+          "tiny": [],
+          "cta": 366.5
+        },
+        "steps": [
+          {
+            "height": 568,
+            "top": 0,
+            "bottom": 568,
+            "width": 320,
+            "scroll": 0,
+            "layoutScroll": 341,
+            "formScroll": 0,
+            "actionsBottom": 568,
+            "actionsTop": 491,
+            "closeTop": 10,
+            "scrollbar": "thin",
+            "horizontal": 0
+          },
+          {
+            "height": 568,
+            "top": 0,
+            "bottom": 568,
+            "width": 320,
+            "scroll": 0,
+            "layoutScroll": 518,
+            "formScroll": 0,
+            "actionsBottom": 568,
+            "actionsTop": 491,
+            "closeTop": 10,
+            "scrollbar": "thin",
+            "horizontal": 0
+          },
+          {
+            "height": 568,
+            "top": 0,
+            "bottom": 568,
+            "width": 320,
+            "scroll": 0,
+            "layoutScroll": 411,
+            "formScroll": 0,
+            "actionsBottom": 568,
+            "actionsTop": 491,
+            "closeTop": 10,
+            "scrollbar": "thin",
+            "horizontal": 0
+          }
+        ]
+      },
+      {
+        "width": 360,
+        "height": 740,
+        "page": {
+          "width": 360,
+          "scroll": 360,
+          "tiny": [],
+          "cta": 342.5
+        },
+        "steps": [
+          {
+            "height": 740,
+            "top": 0,
+            "bottom": 740,
+            "width": 360,
+            "scroll": 0,
+            "layoutScroll": 119,
+            "formScroll": 0,
+            "actionsBottom": 740,
+            "actionsTop": 663,
+            "closeTop": 10,
+            "scrollbar": "thin",
+            "horizontal": 0
+          },
+          {
+            "height": 740,
+            "top": 0,
+            "bottom": 740,
+            "width": 360,
+            "scroll": 0,
+            "layoutScroll": 263,
+            "formScroll": 0,
+            "actionsBottom": 740,
+            "actionsTop": 663,
+            "closeTop": 10,
+            "scrollbar": "thin",
+            "horizontal": 0
+          },
+          {
+            "height": 740,
+            "top": 0,
+            "bottom": 740,
+            "width": 360,
+            "scroll": 0,
+            "layoutScroll": 162,
+            "formScroll": 0,
+            "actionsBottom": 740,
+            "actionsTop": 663,
+            "closeTop": 10,
+            "scrollbar": "thin",
+            "horizontal": 0
+          }
+        ]
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "page": {
+          "width": 390,
+          "scroll": 390,
+          "tiny": [],
+          "cta": 349.25
+        },
+        "steps": [
+          {
+            "height": 844,
+            "top": 0,
+            "bottom": 844,
+            "width": 390,
+            "scroll": 0,
+            "layoutScroll": 0,
+            "formScroll": 0,
+            "actionsBottom": 838.09375,
+            "actionsTop": 761.09375,
+            "closeTop": 10,
+            "scrollbar": "thin",
+            "horizontal": 0
+          },
+          {
+            "height": 844,
+            "top": 0,
+            "bottom": 844,
+            "width": 390,
+            "scroll": 0,
+            "layoutScroll": 120,
+            "formScroll": 0,
+            "actionsBottom": 844,
+            "actionsTop": 767,
+            "closeTop": 10,
+            "scrollbar": "thin",
+            "horizontal": 0
+          },
+          {
+            "height": 844,
+            "top": 0,
+            "bottom": 844,
+            "width": 390,
+            "scroll": 0,
+            "layoutScroll": 58,
+            "formScroll": 0,
+            "actionsBottom": 844,
+            "actionsTop": 767,
+            "closeTop": 10,
+            "scrollbar": "thin",
+            "horizontal": 0
+          }
+        ]
+      },
+      {
+        "width": 430,
+        "height": 932,
+        "page": {
+          "width": 430,
+          "scroll": 430,
+          "tiny": [],
+          "cta": 358.25
+        },
+        "steps": [
+          {
+            "height": 932,
+            "top": 0,
+            "bottom": 932,
+            "width": 430,
+            "scroll": 0,
+            "layoutScroll": 0,
+            "formScroll": 0,
+            "actionsBottom": 838.09375,
+            "actionsTop": 761.09375,
+            "closeTop": 10,
+            "scrollbar": "thin",
+            "horizontal": 0
+          },
+          {
+            "height": 932,
+            "top": 0,
+            "bottom": 932,
+            "width": 430,
+            "scroll": 0,
+            "layoutScroll": 0,
+            "formScroll": 0,
+            "actionsBottom": 924.40625,
+            "actionsTop": 847.40625,
+            "closeTop": 10,
+            "scrollbar": "thin",
+            "horizontal": 0
+          },
+          {
+            "height": 932,
+            "top": 0,
+            "bottom": 932,
+            "width": 430,
+            "scroll": 0,
+            "layoutScroll": 0,
+            "formScroll": 0,
+            "actionsBottom": 879.84375,
+            "actionsTop": 802.84375,
+            "closeTop": 10,
+            "scrollbar": "thin",
+            "horizontal": 0
+          }
+        ]
+      },
+      {
+        "width": 600,
+        "height": 800,
+        "page": {
+          "width": 600,
+          "scroll": 600,
+          "tiny": [],
+          "cta": 396.5
+        },
+        "steps": [
+          {
+            "height": 800,
+            "top": 0,
+            "bottom": 800,
+            "width": 600,
+            "scroll": 0,
+            "layoutScroll": 0,
+            "formScroll": 0,
+            "actionsBottom": 768.15625,
+            "actionsTop": 687.15625,
+            "closeTop": 10,
+            "scrollbar": "thin",
+            "horizontal": 0
+          },
+          {
+            "height": 800,
+            "top": 0,
+            "bottom": 800,
+            "width": 600,
+            "scroll": 0,
+            "layoutScroll": 0,
+            "formScroll": 0,
+            "actionsBottom": 771.421875,
+            "actionsTop": 690.421875,
+            "closeTop": 10,
+            "scrollbar": "thin",
+            "horizontal": 0
+          },
+          {
+            "height": 800,
+            "top": 0,
+            "bottom": 800,
+            "width": 600,
+            "scroll": 0,
+            "layoutScroll": 0,
+            "formScroll": 0,
+            "actionsBottom": 784.546875,
+            "actionsTop": 703.546875,
+            "closeTop": 10,
+            "scrollbar": "thin",
+            "horizontal": 0
+          }
+        ]
+      },
+      {
+        "width": 768,
+        "height": 1024,
+        "page": {
+          "width": 768,
+          "scroll": 768,
+          "tiny": [],
+          "cta": 523.15625
+        },
+        "steps": [
+          {
+            "height": 783.453125,
+            "top": 120.265625,
+            "bottom": 903.71875,
+            "width": 736,
+            "scroll": 0,
+            "layoutScroll": 0,
+            "formScroll": 0,
+            "actionsBottom": 902.71875,
+            "actionsTop": 819.71875,
+            "closeTop": 133.265625,
+            "scrollbar": "thin",
+            "horizontal": 0
+          },
+          {
+            "height": 746.328125,
+            "top": 138.828125,
+            "bottom": 885.15625,
+            "width": 736,
+            "scroll": 0,
+            "layoutScroll": 0,
+            "formScroll": 0,
+            "actionsBottom": 884.15625,
+            "actionsTop": 801.15625,
+            "closeTop": 151.828125,
+            "scrollbar": "thin",
+            "horizontal": 0
+          },
+          {
+            "height": 781,
+            "top": 121.5,
+            "bottom": 902.5,
+            "width": 736,
+            "scroll": 0,
+            "layoutScroll": 0,
+            "formScroll": 0,
+            "actionsBottom": 901.5,
+            "actionsTop": 818.5,
+            "closeTop": 134.5,
+            "scrollbar": "thin",
+            "horizontal": 0
+          }
+        ]
+      },
+      {
+        "width": 820,
+        "height": 600,
+        "page": {
+          "width": 820,
+          "scroll": 820,
+          "tiny": [],
+          "cta": 529.390625
+        },
+        "steps": [
+          {
+            "height": 568,
+            "top": 16,
+            "bottom": 584,
+            "width": 788,
+            "scroll": 0,
+            "layoutScroll": 215,
+            "formScroll": 0,
+            "actionsBottom": 583,
+            "actionsTop": 500,
+            "closeTop": 29,
+            "scrollbar": "thin",
+            "horizontal": 0
+          },
+          {
+            "height": 568,
+            "top": 16,
+            "bottom": 584,
+            "width": 788,
+            "scroll": 0,
+            "layoutScroll": 178,
+            "formScroll": 0,
+            "actionsBottom": 583,
+            "actionsTop": 500,
+            "closeTop": 29,
+            "scrollbar": "thin",
+            "horizontal": 0
+          },
+          {
+            "height": 568,
+            "top": 16,
+            "bottom": 584,
+            "width": 788,
+            "scroll": 0,
+            "layoutScroll": 191,
+            "formScroll": 0,
+            "actionsBottom": 583,
+            "actionsTop": 500,
+            "closeTop": 29,
+            "scrollbar": "thin",
+            "horizontal": 0
+          }
+        ]
+      },
+      {
+        "width": 1024,
+        "height": 768,
+        "page": {
+          "width": 1024,
+          "scroll": 1024,
+          "tiny": [],
+          "cta": 553.859375
+        },
+        "steps": [
+          {
+            "height": 715.453125,
+            "top": 26.265625,
+            "bottom": 741.71875,
+            "width": 992,
+            "scroll": 0,
+            "layoutScroll": 0,
+            "formScroll": 0,
+            "actionsBottom": 740.71875,
+            "actionsTop": 665.71875,
+            "closeTop": 35.265625,
+            "scrollbar": "thin",
+            "horizontal": 0
+          },
+          {
+            "height": 718.71875,
+            "top": 24.640625,
+            "bottom": 743.359375,
+            "width": 992,
+            "scroll": 0,
+            "layoutScroll": 0,
+            "formScroll": 0,
+            "actionsBottom": 742.359375,
+            "actionsTop": 667.359375,
+            "closeTop": 33.640625,
+            "scrollbar": "thin",
+            "horizontal": 0
+          },
+          {
+            "height": 689,
+            "top": 39.5,
+            "bottom": 728.5,
+            "width": 992,
+            "scroll": 0,
+            "layoutScroll": 0,
+            "formScroll": 0,
+            "actionsBottom": 727.5,
+            "actionsTop": 652.5,
+            "closeTop": 48.5,
+            "scrollbar": "thin",
+            "horizontal": 0
+          }
+        ]
+      },
+      {
+        "width": 1212,
+        "height": 888,
+        "page": {
+          "width": 1212,
+          "scroll": 1212,
+          "tiny": [],
+          "cta": 574.765625
+        },
+        "steps": [
+          {
+            "height": 743.453125,
+            "top": 72.265625,
+            "bottom": 815.71875,
+            "width": 1180,
+            "scroll": 0,
+            "layoutScroll": 0,
+            "formScroll": 0,
+            "actionsBottom": 814.71875,
+            "actionsTop": 731.71875,
+            "closeTop": 85.265625,
+            "scrollbar": "thin",
+            "horizontal": 0
+          },
+          {
+            "height": 706.328125,
+            "top": 90.828125,
+            "bottom": 797.15625,
+            "width": 1180,
+            "scroll": 0,
+            "layoutScroll": 0,
+            "formScroll": 0,
+            "actionsBottom": 796.15625,
+            "actionsTop": 713.15625,
+            "closeTop": 103.828125,
+            "scrollbar": "thin",
+            "horizontal": 0
+          },
+          {
+            "height": 718.5,
+            "top": 84.75,
+            "bottom": 803.25,
+            "width": 1180,
+            "scroll": 0,
+            "layoutScroll": 0,
+            "formScroll": 0,
+            "actionsBottom": 802.25,
+            "actionsTop": 719.25,
+            "closeTop": 97.75,
+            "scrollbar": "thin",
+            "horizontal": 0
+          }
+        ]
+      },
+      {
+        "width": 1366,
+        "height": 650,
+        "page": {
+          "width": 1366,
+          "scroll": 1366,
+          "tiny": [],
+          "cta": 610.171875
+        },
+        "steps": [
+          {
+            "height": 618,
+            "top": 16,
+            "bottom": 634,
+            "width": 1240,
+            "scroll": 0,
+            "layoutScroll": 0,
+            "formScroll": 97,
+            "actionsBottom": 633,
+            "actionsTop": 558,
+            "closeTop": 25,
+            "scrollbar": "thin",
+            "horizontal": 0
+          },
+          {
+            "height": 618,
+            "top": 16,
+            "bottom": 634,
+            "width": 1240,
+            "scroll": 0,
+            "layoutScroll": 0,
+            "formScroll": 41,
+            "actionsBottom": 633,
+            "actionsTop": 558,
+            "closeTop": 25,
+            "scrollbar": "thin",
+            "horizontal": 0
+          },
+          {
+            "height": 618,
+            "top": 16,
+            "bottom": 634,
+            "width": 1240,
+            "scroll": 0,
+            "layoutScroll": 0,
+            "formScroll": 49,
+            "actionsBottom": 633,
+            "actionsTop": 558,
+            "closeTop": 25,
+            "scrollbar": "thin",
+            "horizontal": 0
+          }
+        ]
+      },
+      {
+        "width": 1440,
+        "height": 900,
+        "page": {
+          "width": 1440,
+          "scroll": 1440,
+          "tiny": [],
+          "cta": 627.171875
+        },
+        "steps": [
+          {
+            "height": 743.453125,
+            "top": 78.265625,
+            "bottom": 821.71875,
+            "width": 1240,
+            "scroll": 0,
+            "layoutScroll": 0,
+            "formScroll": 0,
+            "actionsBottom": 820.71875,
+            "actionsTop": 737.71875,
+            "closeTop": 91.265625,
+            "scrollbar": "thin",
+            "horizontal": 0
+          },
+          {
+            "height": 686.734375,
+            "top": 106.625,
+            "bottom": 793.359375,
+            "width": 1240,
+            "scroll": 0,
+            "layoutScroll": 0,
+            "formScroll": 0,
+            "actionsBottom": 792.359375,
+            "actionsTop": 709.359375,
+            "closeTop": 119.625,
+            "scrollbar": "thin",
+            "horizontal": 0
+          },
+          {
+            "height": 718.5,
+            "top": 90.75,
+            "bottom": 809.25,
+            "width": 1240,
+            "scroll": 0,
+            "layoutScroll": 0,
+            "formScroll": 0,
+            "actionsBottom": 808.25,
+            "actionsTop": 725.25,
+            "closeTop": 103.75,
+            "scrollbar": "thin",
+            "horizontal": 0
+          }
+        ]
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "page": {
+          "width": 1920,
+          "scroll": 1920,
+          "tiny": [],
+          "cta": 766.21875
+        },
+        "steps": [
+          {
+            "height": 743.453125,
+            "top": 168.265625,
+            "bottom": 911.71875,
+            "width": 1240,
+            "scroll": 0,
+            "layoutScroll": 0,
+            "formScroll": 0,
+            "actionsBottom": 910.71875,
+            "actionsTop": 827.71875,
+            "closeTop": 181.265625,
+            "scrollbar": "thin",
+            "horizontal": 0
+          },
+          {
+            "height": 686.734375,
+            "top": 196.625,
+            "bottom": 883.359375,
+            "width": 1240,
+            "scroll": 0,
+            "layoutScroll": 0,
+            "formScroll": 0,
+            "actionsBottom": 882.359375,
+            "actionsTop": 799.359375,
+            "closeTop": 209.625,
+            "scrollbar": "thin",
+            "horizontal": 0
+          },
+          {
+            "height": 718.5,
+            "top": 180.75,
+            "bottom": 899.25,
+            "width": 1240,
+            "scroll": 0,
+            "layoutScroll": 0,
+            "formScroll": 0,
+            "actionsBottom": 898.25,
+            "actionsTop": 815.25,
+            "closeTop": 193.75,
+            "scrollbar": "thin",
+            "horizontal": 0
+          }
+        ]
+      },
+      {
+        "width": 2560,
+        "height": 1440,
+        "page": {
+          "width": 2560,
+          "scroll": 2560,
+          "tiny": [],
+          "cta": 923.8125
+        },
+        "steps": [
+          {
+            "height": 743.453125,
+            "top": 348.265625,
+            "bottom": 1091.71875,
+            "width": 1240,
+            "scroll": 0,
+            "layoutScroll": 0,
+            "formScroll": 0,
+            "actionsBottom": 1090.71875,
+            "actionsTop": 1007.71875,
+            "closeTop": 361.265625,
+            "scrollbar": "thin",
+            "horizontal": 0
+          },
+          {
+            "height": 686.734375,
+            "top": 376.625,
+            "bottom": 1063.359375,
+            "width": 1240,
+            "scroll": 0,
+            "layoutScroll": 0,
+            "formScroll": 0,
+            "actionsBottom": 1062.359375,
+            "actionsTop": 979.359375,
+            "closeTop": 389.625,
+            "scrollbar": "thin",
+            "horizontal": 0
+          },
+          {
+            "height": 718.5,
+            "top": 360.75,
+            "bottom": 1079.25,
+            "width": 1240,
+            "scroll": 0,
+            "layoutScroll": 0,
+            "formScroll": 0,
+            "actionsBottom": 1078.25,
+            "actionsTop": 995.25,
+            "closeTop": 373.75,
+            "scrollbar": "thin",
+            "horizontal": 0
+          }
+        ]
+      }
     ],
     "accessibility": [
       {
         "width": 390,
-        "state": "menu0",
-        "violations": []
+        "step": 0,
+        "violations": 0
       },
       {
         "width": 390,
-        "state": "menu1",
-        "violations": []
+        "step": 1,
+        "violations": 0
       },
       {
         "width": 390,
-        "state": "menu2",
-        "violations": []
+        "step": 2,
+        "violations": 0
       },
       {
-        "width": 768,
-        "state": "menu0",
-        "violations": []
+        "width": 1212,
+        "step": 0,
+        "violations": 0
       },
       {
-        "width": 768,
-        "state": "menu1",
-        "violations": []
+        "width": 1212,
+        "step": 1,
+        "violations": 0
       },
       {
-        "width": 768,
-        "state": "menu2",
-        "violations": []
-      },
-      {
-        "width": 1440,
-        "state": "menu0",
-        "violations": []
-      },
-      {
-        "width": 1440,
-        "state": "menu1",
-        "violations": []
-      },
-      {
-        "width": 1440,
-        "state": "menu2",
-        "violations": []
+        "width": 1212,
+        "step": 2,
+        "violations": 0
       },
       {
         "width": 320,
-        "state": "quote-step2",
-        "violations": []
-      },
-      {
-        "width": 320,
-        "state": "quote-step1",
-        "violations": []
-      },
-      {
-        "width": 320,
-        "state": "quote-step0",
-        "violations": []
-      },
-      {
-        "width": 390,
-        "state": "quote-step2",
-        "violations": []
-      },
-      {
-        "width": 390,
-        "state": "quote-step1",
-        "violations": []
-      },
-      {
-        "width": 390,
-        "state": "quote-step0",
-        "violations": []
+        "page": true,
+        "violations": 0
       },
       {
         "width": 768,
-        "state": "quote-step2",
-        "violations": []
-      },
-      {
-        "width": 768,
-        "state": "quote-step1",
-        "violations": []
-      },
-      {
-        "width": 768,
-        "state": "quote-step0",
-        "violations": []
+        "page": true,
+        "violations": 0
       },
       {
         "width": 1440,
-        "state": "quote-step2",
-        "violations": []
-      },
-      {
-        "width": 1440,
-        "state": "quote-step1",
-        "violations": []
-      },
-      {
-        "width": 1440,
-        "state": "quote-step0",
-        "violations": []
+        "page": true,
+        "violations": 0
       }
     ],
-    "geometry": [
-      {
-        "width": 320,
-        "scrollWidth": 320,
-        "heroWidth": 320,
-        "heroHeight": 778,
-        "topGap": 26
-      },
-      {
-        "width": 390,
-        "scrollWidth": 390,
-        "heroWidth": 390,
-        "heroHeight": 814,
-        "topGap": 26
-      },
-      {
-        "width": 768,
-        "scrollWidth": 768,
-        "heroWidth": 768,
-        "heroHeight": 570,
-        "topGap": 32
-      },
-      {
-        "width": 1440,
-        "scrollWidth": 1440,
-        "heroWidth": 1440,
-        "heroHeight": 640,
-        "topGap": 32
-      },
-      {
-        "width": 1920,
-        "scrollWidth": 1920,
-        "heroWidth": 1920,
-        "heroHeight": 720,
-        "topGap": 32
-      },
-      {
-        "width": 2560,
-        "scrollWidth": 2560,
-        "heroWidth": 2560,
-        "heroHeight": 826,
-        "topGap": 32
-      }
+    "checks": [
+      "No visible text below 13px; 16px body and inputs on mobile",
+      "No horizontal overflow at 13 viewport sizes",
+      "Three quote steps: no dialog scrollbar; one themed scroll surface where necessary; visible actions and close button",
+      "No scrolling in three default steps on tested desktops from 1024x768; first step fits 390x844",
+      "Optional fields remain accessible; completed demo and TXT export preserve their values"
     ],
     "errors": []
   },
-  "responsiveV5": {
+  "responsiveRegression": {
     "widths": [
       {
         "width": 320,
@@ -307,7 +1819,7 @@
             "left": 18
           }
         ],
-        "cta": 352.375,
+        "cta": 366.5,
         "order": [
           "hero",
           "page-nav",
@@ -368,7 +1880,7 @@
             "left": 18
           }
         ],
-        "cta": 339.78125,
+        "cta": 342.5,
         "order": [
           "hero",
           "page-nav",
@@ -429,7 +1941,7 @@
             "left": 18
           }
         ],
-        "cta": 352.828125,
+        "cta": 349.25,
         "order": [
           "hero",
           "page-nav",
@@ -490,7 +2002,7 @@
             "left": 18
           }
         ],
-        "cta": 370.234375,
+        "cta": 358.25,
         "order": [
           "hero",
           "page-nav",
@@ -551,7 +2063,7 @@
             "left": 18
           }
         ],
-        "cta": 423.1875,
+        "cta": 396.5,
         "order": [
           "hero",
           "page-nav",
@@ -616,7 +2128,7 @@
             "left": 15.359375
           }
         ],
-        "cta": 511.953125,
+        "cta": 523.15625,
         "order": [
           "hero",
           "page-nav",
@@ -681,7 +2193,7 @@
             "left": 16.40625
           }
         ],
-        "cta": 518.1875,
+        "cta": 529.390625,
         "order": [
           "hero",
           "page-nav",
@@ -746,7 +2258,7 @@
             "left": 20.484375
           }
         ],
-        "cta": 542.65625,
+        "cta": 553.859375,
         "order": [
           "hero",
           "page-nav",
@@ -811,7 +2323,7 @@
             "left": 28.796875
           }
         ],
-        "cta": 619.484375,
+        "cta": 627.171875,
         "order": [
           "hero",
           "page-nav",
@@ -876,7 +2388,7 @@
             "left": 38.40625
           }
         ],
-        "cta": 752.0625,
+        "cta": 766.21875,
         "order": [
           "hero",
           "page-nav",
@@ -941,7 +2453,7 @@
             "left": 51.203125
           }
         ],
-        "cta": 928.828125,
+        "cta": 923.8125,
         "order": [
           "hero",
           "page-nav",
@@ -1008,5 +2520,15 @@
       "Team photo: opaque throughout animation, no dark overlay, caption outside photo"
     ],
     "errors": []
+  },
+  "motion": {
+    "headingMasks": true,
+    "finiteAnimations": true,
+    "rolloverText": true,
+    "duplicatesAriaHidden": true,
+    "scrollLinkedPhoto": true,
+    "reducedMotionResetsParallax": true,
+    "reducedMotionStopsRollover": true,
+    "formSuccessStateContrast": true
   }
 }
