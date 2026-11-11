@@ -1,5 +1,7 @@
 # UAV Center — страница услуги
 
+[Открыть демонстрацию](https://moriarty32.github.io/uavcenter-uslugi/) · [Исследование и аудит](https://moriarty32.github.io/uavcenter-uslugi/research.html)
+
 Премиальная демонстрация страницы аэрофотосъемки с БПЛА для uavcenter.ru. Статический HTML/CSS/JS, без сборки и внешних runtime-зависимостей.
 
 - `index.html` — страница для клиента.
