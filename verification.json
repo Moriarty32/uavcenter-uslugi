@@ -1,5 +1,5 @@
 {
-  "testedAt": "2026-11-11T14:45:11.834Z",
+  "testedAt": "2026-11-11T15:07:20.967Z",
   "widths": [
     {
       "width": 320,
@@ -101,70 +101,163 @@
     "reducedMotionStopsRollover": true,
     "formSuccessStateContrast": true
   },
-  "originalChrome": {
-    "dropdownKeyboard": true,
-    "oneOpenGroup": true,
-    "dropdownAccessibility": true,
-    "backToTop": true,
-    "measurements": [
+  "refinement": {
+    "checks": [
+      "Menus: hover desktop, click mobile, one open panel, Escape, panel geometry and accessibility",
+      "Quote: validation, area conversions, unknown area, product selection, back preserves data, summary, export, Escape and focus restore",
+      "Button hover: directional fill, rolling label, reduced-motion mode"
+    ],
+    "accessibility": [
       {
-        "width": 1440,
-        "typography": [
-          {
-            "class": "motion-title motion-entered",
-            "font": "Radio, Arial, sans-serif",
-            "size": "57.6px",
-            "line": "57.6px"
-          },
-          {
-            "class": "motion-title",
-            "font": "Radio, Arial, sans-serif",
-            "size": "57.6px",
-            "line": "57.6px"
-          },
-          {
-            "class": "site-footer-heading",
-            "font": "Radio, Arial, sans-serif",
-            "size": "28.8px",
-            "line": "28.8px"
-          },
-          {
-            "class": "",
-            "font": "Suisse, Arial, sans-serif",
-            "size": "14.4px",
-            "line": "17.28px"
-          }
-        ]
+        "width": 390,
+        "state": "menu0",
+        "violations": []
       },
       {
         "width": 390,
-        "typography": [
-          {
-            "class": "motion-title motion-entered",
-            "font": "Radio, Arial, sans-serif",
-            "size": "29.25px",
-            "line": "29.25px"
-          },
-          {
-            "class": "motion-title",
-            "font": "Radio, Arial, sans-serif",
-            "size": "29.25px",
-            "line": "29.25px"
-          },
-          {
-            "class": "site-footer-heading",
-            "font": "Radio, Arial, sans-serif",
-            "size": "23.4px",
-            "line": "23.4px"
-          },
-          {
-            "class": "",
-            "font": "Suisse, Arial, sans-serif",
-            "size": "12.48px",
-            "line": "14.976px"
-          }
-        ]
+        "state": "menu1",
+        "violations": []
+      },
+      {
+        "width": 390,
+        "state": "menu2",
+        "violations": []
+      },
+      {
+        "width": 768,
+        "state": "menu0",
+        "violations": []
+      },
+      {
+        "width": 768,
+        "state": "menu1",
+        "violations": []
+      },
+      {
+        "width": 768,
+        "state": "menu2",
+        "violations": []
+      },
+      {
+        "width": 1440,
+        "state": "menu0",
+        "violations": []
+      },
+      {
+        "width": 1440,
+        "state": "menu1",
+        "violations": []
+      },
+      {
+        "width": 1440,
+        "state": "menu2",
+        "violations": []
+      },
+      {
+        "width": 320,
+        "state": "quote-step2",
+        "violations": []
+      },
+      {
+        "width": 320,
+        "state": "quote-step1",
+        "violations": []
+      },
+      {
+        "width": 320,
+        "state": "quote-step0",
+        "violations": []
+      },
+      {
+        "width": 390,
+        "state": "quote-step2",
+        "violations": []
+      },
+      {
+        "width": 390,
+        "state": "quote-step1",
+        "violations": []
+      },
+      {
+        "width": 390,
+        "state": "quote-step0",
+        "violations": []
+      },
+      {
+        "width": 768,
+        "state": "quote-step2",
+        "violations": []
+      },
+      {
+        "width": 768,
+        "state": "quote-step1",
+        "violations": []
+      },
+      {
+        "width": 768,
+        "state": "quote-step0",
+        "violations": []
+      },
+      {
+        "width": 1440,
+        "state": "quote-step2",
+        "violations": []
+      },
+      {
+        "width": 1440,
+        "state": "quote-step1",
+        "violations": []
+      },
+      {
+        "width": 1440,
+        "state": "quote-step0",
+        "violations": []
       }
-    ]
+    ],
+    "geometry": [
+      {
+        "width": 320,
+        "scrollWidth": 320,
+        "heroWidth": 320,
+        "heroHeight": 778,
+        "topGap": 26
+      },
+      {
+        "width": 390,
+        "scrollWidth": 390,
+        "heroWidth": 390,
+        "heroHeight": 814,
+        "topGap": 26
+      },
+      {
+        "width": 768,
+        "scrollWidth": 768,
+        "heroWidth": 768,
+        "heroHeight": 570,
+        "topGap": 32
+      },
+      {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "heroWidth": 1440,
+        "heroHeight": 640,
+        "topGap": 32
+      },
+      {
+        "width": 1920,
+        "scrollWidth": 1920,
+        "heroWidth": 1920,
+        "heroHeight": 720,
+        "topGap": 32
+      },
+      {
+        "width": 2560,
+        "scrollWidth": 2560,
+        "heroWidth": 2560,
+        "heroHeight": 826,
+        "topGap": 32
+      }
+    ],
+    "errors": []
   }
 }

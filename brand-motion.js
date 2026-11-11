@@ -50,7 +50,7 @@
     }
     const rect = hero.getBoundingClientRect();
     if (rect.bottom < 0 || rect.top > innerHeight) return;
-    photo.style.setProperty('--photo-shift', `${Math.max(-16,Math.min(36,-rect.top*.075)).toFixed(2)}px`);
+    photo.style.setProperty('--photo-shift', `${Math.max(-12,Math.min(12,-rect.top*.04)).toFixed(2)}px`);
   }
   function schedule() {if (!frame) frame=requestAnimationFrame(paintPhoto);}
   window.addEventListener('scroll',schedule,{passive:true});
