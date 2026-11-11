@@ -55,7 +55,7 @@
   form.addEventListener('submit',event=>{event.preventDefault();if(!validate())return;if(step<2){showStep(step+1);return;}sections.forEach(section=>{section.hidden=true;});controls.hidden=true;complete.hidden=false;complete.focus({preventScroll:true});form.scrollTop=0;dialog.scrollTop=0;});
   form.addEventListener('input',()=>{form.elements.contact.setCustomValidity('');error.hidden=true;syncArea();});
   form.addEventListener('change',syncArea);
-  form.querySelectorAll('[data-area]').forEach(button=>button.addEventListener('click',()=>{form.elements.unknownArea.checked=false;form.elements.unit.value='ha';form.elements.area.value=button.dataset.area;syncArea();}));
+  form.querySelectorAll('[data-area]').forEach(button=>button.addEventListener('click',()=>{form.elements.unknownArea.checked=false;form.elements.unit.value='ha';form.elements.area.value=button.dataset.area;syncArea();form.elements.unit.dispatchEvent(new Event('change',{bubbles:true}));}));
   form.querySelector('.estimate-edit').addEventListener('click',()=>showStep(2));
   form.querySelector('.estimate-download').addEventListener('click',()=>{
     const content=['Запрос на расчёт аэрофотосъёмки — Центр беспилотных технологий','',...entries().map(([k,v])=>`${k}: ${v}`),'',`Имя: ${form.elements.name.value.trim()||'Не указано'}`,`Контакт: ${form.elements.contact.value.trim()}`,'','Стоимость и сроки: индивидуально после проверки объекта.','Сформировано в демонстрации. Заявка не отправлена.'].join('\r\n');

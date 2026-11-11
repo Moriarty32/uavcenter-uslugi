@@ -1,5 +1,5 @@
 {
-  "testedAt": "2026-11-11T15:07:20.967Z",
+  "testedAt": "2026-11-11T15:18:01.396Z",
   "widths": [
     {
       "width": 320,
@@ -257,6 +257,755 @@
         "heroHeight": 826,
         "topGap": 32
       }
+    ],
+    "errors": []
+  },
+  "responsiveV5": {
+    "widths": [
+      {
+        "width": 320,
+        "scroll": 320,
+        "containers": [
+          {
+            "w": 284,
+            "left": 18
+          },
+          {
+            "w": 284,
+            "left": 18
+          },
+          {
+            "w": 284,
+            "left": 18
+          },
+          {
+            "w": 284,
+            "left": 18
+          },
+          {
+            "w": 284,
+            "left": 18
+          },
+          {
+            "w": 284,
+            "left": 18
+          },
+          {
+            "w": 284,
+            "left": 18
+          },
+          {
+            "w": 284,
+            "left": 18
+          },
+          {
+            "w": 284,
+            "left": 18
+          },
+          {
+            "w": 284,
+            "left": 18
+          }
+        ],
+        "cta": 352.375,
+        "order": [
+          "hero",
+          "page-nav",
+          "price",
+          "results",
+          "projects",
+          "quality",
+          "team",
+          "process",
+          "conditions",
+          "faq",
+          "brief"
+        ],
+        "overflows": []
+      },
+      {
+        "width": 360,
+        "scroll": 360,
+        "containers": [
+          {
+            "w": 324,
+            "left": 18
+          },
+          {
+            "w": 324,
+            "left": 18
+          },
+          {
+            "w": 324,
+            "left": 18
+          },
+          {
+            "w": 324,
+            "left": 18
+          },
+          {
+            "w": 324,
+            "left": 18
+          },
+          {
+            "w": 324,
+            "left": 18
+          },
+          {
+            "w": 324,
+            "left": 18
+          },
+          {
+            "w": 324,
+            "left": 18
+          },
+          {
+            "w": 324,
+            "left": 18
+          },
+          {
+            "w": 324,
+            "left": 18
+          }
+        ],
+        "cta": 339.78125,
+        "order": [
+          "hero",
+          "page-nav",
+          "price",
+          "results",
+          "projects",
+          "quality",
+          "team",
+          "process",
+          "conditions",
+          "faq",
+          "brief"
+        ],
+        "overflows": []
+      },
+      {
+        "width": 390,
+        "scroll": 390,
+        "containers": [
+          {
+            "w": 354,
+            "left": 18
+          },
+          {
+            "w": 354,
+            "left": 18
+          },
+          {
+            "w": 354,
+            "left": 18
+          },
+          {
+            "w": 354,
+            "left": 18
+          },
+          {
+            "w": 354,
+            "left": 18
+          },
+          {
+            "w": 354,
+            "left": 18
+          },
+          {
+            "w": 354,
+            "left": 18
+          },
+          {
+            "w": 354,
+            "left": 18
+          },
+          {
+            "w": 354,
+            "left": 18
+          },
+          {
+            "w": 354,
+            "left": 18
+          }
+        ],
+        "cta": 352.828125,
+        "order": [
+          "hero",
+          "page-nav",
+          "price",
+          "results",
+          "projects",
+          "quality",
+          "team",
+          "process",
+          "conditions",
+          "faq",
+          "brief"
+        ],
+        "overflows": []
+      },
+      {
+        "width": 430,
+        "scroll": 430,
+        "containers": [
+          {
+            "w": 394,
+            "left": 18
+          },
+          {
+            "w": 394,
+            "left": 18
+          },
+          {
+            "w": 394,
+            "left": 18
+          },
+          {
+            "w": 394,
+            "left": 18
+          },
+          {
+            "w": 394,
+            "left": 18
+          },
+          {
+            "w": 394,
+            "left": 18
+          },
+          {
+            "w": 394,
+            "left": 18
+          },
+          {
+            "w": 394,
+            "left": 18
+          },
+          {
+            "w": 394,
+            "left": 18
+          },
+          {
+            "w": 394,
+            "left": 18
+          }
+        ],
+        "cta": 370.234375,
+        "order": [
+          "hero",
+          "page-nav",
+          "price",
+          "results",
+          "projects",
+          "quality",
+          "team",
+          "process",
+          "conditions",
+          "faq",
+          "brief"
+        ],
+        "overflows": []
+      },
+      {
+        "width": 600,
+        "scroll": 600,
+        "containers": [
+          {
+            "w": 564,
+            "left": 18
+          },
+          {
+            "w": 564,
+            "left": 18
+          },
+          {
+            "w": 564,
+            "left": 18
+          },
+          {
+            "w": 564,
+            "left": 18
+          },
+          {
+            "w": 564,
+            "left": 18
+          },
+          {
+            "w": 564,
+            "left": 18
+          },
+          {
+            "w": 564,
+            "left": 18
+          },
+          {
+            "w": 564,
+            "left": 18
+          },
+          {
+            "w": 564,
+            "left": 18
+          },
+          {
+            "w": 564,
+            "left": 18
+          }
+        ],
+        "cta": 423.1875,
+        "order": [
+          "hero",
+          "page-nav",
+          "price",
+          "results",
+          "projects",
+          "quality",
+          "team",
+          "process",
+          "conditions",
+          "faq",
+          "brief"
+        ],
+        "overflows": []
+      },
+      {
+        "width": 768,
+        "scroll": 768,
+        "containers": [
+          {
+            "w": 737.265625,
+            "left": 15.359375
+          },
+          {
+            "w": 737.265625,
+            "left": 15.359375
+          },
+          {
+            "w": 737.265625,
+            "left": 15.359375
+          },
+          {
+            "w": 737.265625,
+            "left": 15.359375
+          },
+          {
+            "w": 737.265625,
+            "left": 15.359375
+          },
+          {
+            "w": 737.265625,
+            "left": 15.359375
+          },
+          {
+            "w": 737.265625,
+            "left": 15.359375
+          },
+          {
+            "w": 737.265625,
+            "left": 15.359375
+          },
+          {
+            "w": 737.265625,
+            "left": 15.359375
+          },
+          {
+            "w": 737.265625,
+            "left": 15.359375
+          },
+          {
+            "w": 737.265625,
+            "left": 15.359375
+          }
+        ],
+        "cta": 511.953125,
+        "order": [
+          "hero",
+          "page-nav",
+          "results",
+          "projects",
+          "price",
+          "quality",
+          "team",
+          "process",
+          "conditions",
+          "faq",
+          "brief"
+        ],
+        "overflows": []
+      },
+      {
+        "width": 820,
+        "scroll": 820,
+        "containers": [
+          {
+            "w": 787.1875,
+            "left": 16.40625
+          },
+          {
+            "w": 787.1875,
+            "left": 16.40625
+          },
+          {
+            "w": 787.1875,
+            "left": 16.40625
+          },
+          {
+            "w": 787.1875,
+            "left": 16.40625
+          },
+          {
+            "w": 787.1875,
+            "left": 16.40625
+          },
+          {
+            "w": 787.1875,
+            "left": 16.40625
+          },
+          {
+            "w": 787.1875,
+            "left": 16.40625
+          },
+          {
+            "w": 787.1875,
+            "left": 16.40625
+          },
+          {
+            "w": 787.1875,
+            "left": 16.40625
+          },
+          {
+            "w": 787.1875,
+            "left": 16.40625
+          },
+          {
+            "w": 787.1875,
+            "left": 16.40625
+          }
+        ],
+        "cta": 518.1875,
+        "order": [
+          "hero",
+          "page-nav",
+          "results",
+          "projects",
+          "price",
+          "quality",
+          "team",
+          "process",
+          "conditions",
+          "faq",
+          "brief"
+        ],
+        "overflows": []
+      },
+      {
+        "width": 1024,
+        "scroll": 1024,
+        "containers": [
+          {
+            "w": 983.03125,
+            "left": 20.484375
+          },
+          {
+            "w": 983.03125,
+            "left": 20.484375
+          },
+          {
+            "w": 983.03125,
+            "left": 20.484375
+          },
+          {
+            "w": 983.03125,
+            "left": 20.484375
+          },
+          {
+            "w": 983.03125,
+            "left": 20.484375
+          },
+          {
+            "w": 983.03125,
+            "left": 20.484375
+          },
+          {
+            "w": 983.03125,
+            "left": 20.484375
+          },
+          {
+            "w": 983.03125,
+            "left": 20.484375
+          },
+          {
+            "w": 983.03125,
+            "left": 20.484375
+          },
+          {
+            "w": 983.03125,
+            "left": 20.484375
+          },
+          {
+            "w": 983.03125,
+            "left": 20.484375
+          }
+        ],
+        "cta": 542.65625,
+        "order": [
+          "hero",
+          "page-nav",
+          "results",
+          "projects",
+          "price",
+          "quality",
+          "team",
+          "process",
+          "conditions",
+          "faq",
+          "brief"
+        ],
+        "overflows": []
+      },
+      {
+        "width": 1440,
+        "scroll": 1440,
+        "containers": [
+          {
+            "w": 1382.390625,
+            "left": 28.796875
+          },
+          {
+            "w": 1382.390625,
+            "left": 28.796875
+          },
+          {
+            "w": 1382.390625,
+            "left": 28.796875
+          },
+          {
+            "w": 1382.390625,
+            "left": 28.796875
+          },
+          {
+            "w": 1382.390625,
+            "left": 28.796875
+          },
+          {
+            "w": 1382.390625,
+            "left": 28.796875
+          },
+          {
+            "w": 1382.390625,
+            "left": 28.796875
+          },
+          {
+            "w": 1382.390625,
+            "left": 28.796875
+          },
+          {
+            "w": 1382.390625,
+            "left": 28.796875
+          },
+          {
+            "w": 1382.390625,
+            "left": 28.796875
+          },
+          {
+            "w": 1382.390625,
+            "left": 28.796875
+          }
+        ],
+        "cta": 619.484375,
+        "order": [
+          "hero",
+          "page-nav",
+          "results",
+          "projects",
+          "price",
+          "quality",
+          "team",
+          "process",
+          "conditions",
+          "faq",
+          "brief"
+        ],
+        "overflows": []
+      },
+      {
+        "width": 1920,
+        "scroll": 1920,
+        "containers": [
+          {
+            "w": 1843.1875,
+            "left": 38.40625
+          },
+          {
+            "w": 1843.1875,
+            "left": 38.40625
+          },
+          {
+            "w": 1843.1875,
+            "left": 38.40625
+          },
+          {
+            "w": 1843.1875,
+            "left": 38.40625
+          },
+          {
+            "w": 1843.1875,
+            "left": 38.40625
+          },
+          {
+            "w": 1843.1875,
+            "left": 38.40625
+          },
+          {
+            "w": 1843.1875,
+            "left": 38.40625
+          },
+          {
+            "w": 1843.1875,
+            "left": 38.40625
+          },
+          {
+            "w": 1843.1875,
+            "left": 38.40625
+          },
+          {
+            "w": 1843.1875,
+            "left": 38.40625
+          },
+          {
+            "w": 1843.1875,
+            "left": 38.40625
+          }
+        ],
+        "cta": 752.0625,
+        "order": [
+          "hero",
+          "page-nav",
+          "results",
+          "projects",
+          "price",
+          "quality",
+          "team",
+          "process",
+          "conditions",
+          "faq",
+          "brief"
+        ],
+        "overflows": []
+      },
+      {
+        "width": 2560,
+        "scroll": 2560,
+        "containers": [
+          {
+            "w": 2457.59375,
+            "left": 51.203125
+          },
+          {
+            "w": 2457.59375,
+            "left": 51.203125
+          },
+          {
+            "w": 2457.59375,
+            "left": 51.203125
+          },
+          {
+            "w": 2457.59375,
+            "left": 51.203125
+          },
+          {
+            "w": 2457.59375,
+            "left": 51.203125
+          },
+          {
+            "w": 2457.59375,
+            "left": 51.203125
+          },
+          {
+            "w": 2457.59375,
+            "left": 51.203125
+          },
+          {
+            "w": 2457.59375,
+            "left": 51.203125
+          },
+          {
+            "w": 2457.59375,
+            "left": 51.203125
+          },
+          {
+            "w": 2457.59375,
+            "left": 51.203125
+          },
+          {
+            "w": 2457.59375,
+            "left": 51.203125
+          }
+        ],
+        "cta": 928.828125,
+        "order": [
+          "hero",
+          "page-nav",
+          "results",
+          "projects",
+          "price",
+          "quality",
+          "team",
+          "process",
+          "conditions",
+          "faq",
+          "brief"
+        ],
+        "overflows": []
+      }
+    ],
+    "selects": [
+      {
+        "w": 390,
+        "name": "object",
+        "keyboard": true,
+        "escape": true,
+        "accessibility": true
+      },
+      {
+        "w": 390,
+        "name": "deadline",
+        "keyboard": true,
+        "escape": true,
+        "accessibility": true
+      },
+      {
+        "w": 390,
+        "name": "unit",
+        "keyboard": true,
+        "escape": true,
+        "accessibility": true
+      },
+      {
+        "w": 1440,
+        "name": "object",
+        "keyboard": true,
+        "escape": true,
+        "accessibility": true
+      },
+      {
+        "w": 1440,
+        "name": "deadline",
+        "keyboard": true,
+        "escape": true,
+        "accessibility": true
+      },
+      {
+        "w": 1440,
+        "name": "unit",
+        "keyboard": true,
+        "escape": true,
+        "accessibility": true
+      }
+    ],
+    "checks": [
+      "Fluid width across all sections from 320 to 2560px; no overflow; mobile CTA above fold; quote precedes portfolio",
+      "All six branded selects: click, keyboard, Escape without closing dialog, synchronized native values, disabled unit and quote summary",
+      "Team photo: opaque throughout animation, no dark overlay, caption outside photo"
     ],
     "errors": []
   }
