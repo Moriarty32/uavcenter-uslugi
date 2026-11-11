@@ -1,0 +1,94 @@
+{
+  "testedAt": "2026-11-11T14:14:13.601Z",
+  "widths": [
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "overflows": []
+    },
+    {
+      "width": 360,
+      "scrollWidth": 360,
+      "overflows": []
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "overflows": []
+    },
+    {
+      "width": 430,
+      "scrollWidth": 430,
+      "overflows": []
+    },
+    {
+      "width": 600,
+      "scrollWidth": 600,
+      "overflows": []
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768,
+      "overflows": []
+    },
+    {
+      "width": 820,
+      "scrollWidth": 820,
+      "overflows": []
+    },
+    {
+      "width": 1024,
+      "scrollWidth": 1024,
+      "overflows": []
+    },
+    {
+      "width": 1280,
+      "scrollWidth": 1280,
+      "overflows": []
+    },
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "overflows": []
+    },
+    {
+      "width": 1920,
+      "scrollWidth": 1920,
+      "overflows": []
+    }
+  ],
+  "accessibility": [
+    {
+      "width": 390,
+      "violations": []
+    },
+    {
+      "width": 768,
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "violations": []
+    },
+    {
+      "state": "tab-model",
+      "violations": []
+    },
+    {
+      "state": "tab-volume",
+      "violations": []
+    }
+  ],
+  "checks": [
+    "Tabs: click, arrows, Home/End, panel visibility and contrast",
+    "All 3 case dialogs: contents, Escape, restored focus, accessibility",
+    "FAQ opens and closes",
+    "Both forms reject bad contacts; email/phone validation; honest demo state",
+    "Mobile menu and Escape; sticky CTA hides and is inert during input",
+    "Reduced motion disables running animations",
+    "All images load; all internal anchor targets exist",
+    "No-JavaScript: main content and CTA remain visible"
+  ],
+  "errors": [],
+  "failedRequests": []
+}
