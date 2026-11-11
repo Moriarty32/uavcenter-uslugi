@@ -1,5 +1,5 @@
 {
-  "testedAt": "2026-11-11T14:14:13.601Z",
+  "testedAt": "2026-11-11T14:30:33.472Z",
   "widths": [
     {
       "width": 320,
@@ -90,5 +90,16 @@
     "No-JavaScript: main content and CTA remain visible"
   ],
   "errors": [],
-  "failedRequests": []
+  "failedRequests": [],
+  "version": 2,
+  "motion": {
+    "headingMasks": true,
+    "finiteAnimations": true,
+    "rolloverText": true,
+    "duplicatesAriaHidden": true,
+    "scrollLinkedPhoto": true,
+    "reducedMotionResetsParallax": true,
+    "reducedMotionStopsRollover": true,
+    "formSuccessStateContrast": true
+  }
 }
