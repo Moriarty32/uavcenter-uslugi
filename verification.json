@@ -1,5 +1,5 @@
 {
-  "testedAt": "2026-11-11T14:30:33.472Z",
+  "testedAt": "2026-11-11T14:45:11.834Z",
   "widths": [
     {
       "width": 320,
@@ -91,7 +91,6 @@
   ],
   "errors": [],
   "failedRequests": [],
-  "version": 2,
   "motion": {
     "headingMasks": true,
     "finiteAnimations": true,
@@ -101,5 +100,71 @@
     "reducedMotionResetsParallax": true,
     "reducedMotionStopsRollover": true,
     "formSuccessStateContrast": true
+  },
+  "originalChrome": {
+    "dropdownKeyboard": true,
+    "oneOpenGroup": true,
+    "dropdownAccessibility": true,
+    "backToTop": true,
+    "measurements": [
+      {
+        "width": 1440,
+        "typography": [
+          {
+            "class": "motion-title motion-entered",
+            "font": "Radio, Arial, sans-serif",
+            "size": "57.6px",
+            "line": "57.6px"
+          },
+          {
+            "class": "motion-title",
+            "font": "Radio, Arial, sans-serif",
+            "size": "57.6px",
+            "line": "57.6px"
+          },
+          {
+            "class": "site-footer-heading",
+            "font": "Radio, Arial, sans-serif",
+            "size": "28.8px",
+            "line": "28.8px"
+          },
+          {
+            "class": "",
+            "font": "Suisse, Arial, sans-serif",
+            "size": "14.4px",
+            "line": "17.28px"
+          }
+        ]
+      },
+      {
+        "width": 390,
+        "typography": [
+          {
+            "class": "motion-title motion-entered",
+            "font": "Radio, Arial, sans-serif",
+            "size": "29.25px",
+            "line": "29.25px"
+          },
+          {
+            "class": "motion-title",
+            "font": "Radio, Arial, sans-serif",
+            "size": "29.25px",
+            "line": "29.25px"
+          },
+          {
+            "class": "site-footer-heading",
+            "font": "Radio, Arial, sans-serif",
+            "size": "23.4px",
+            "line": "23.4px"
+          },
+          {
+            "class": "",
+            "font": "Suisse, Arial, sans-serif",
+            "size": "12.48px",
+            "line": "14.976px"
+          }
+        ]
+      }
+    ]
   }
 }
