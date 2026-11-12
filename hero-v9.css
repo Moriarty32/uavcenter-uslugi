@@ -1,0 +1,77 @@
+/* Fit the service hero, brand header and section navigation to the window. */
+@media(min-width:761px){
+ .brand-aligned .hero{height:calc(100svh - var(--service-header-height,11vw) - var(--service-nav-height,68px));container-type:size}
+ .brand-aligned .hero>.container{height:100%;display:flex;flex-direction:column}
+ .brand-aligned .hero-main{flex:1;min-height:0;grid-template-rows:minmax(0,1fr);padding:clamp(24px,4cqh,60px) 0;align-items:center;gap:3vw}
+ .brand-aligned .hero-copy{max-width:1000px}
+ .brand-aligned .hero h1{font-size:clamp(34px,min(4vw,9.3cqh),108px);line-height:1.03;margin-bottom:clamp(16px,2.7cqh,28px)}
+ .brand-aligned .hero .eyebrow{font-size:clamp(13px,1.8cqh,17px);margin-bottom:clamp(14px,2.6cqh,26px)}
+ .brand-aligned .hero-desc{font-size:clamp(16px,min(1.1vw,2.6cqh),22px);line-height:1.45;max-width:34em}
+ .brand-aligned .hero-benefits{margin-top:clamp(12px,2.7cqh,22px);font-size:clamp(13px,1.8cqh,17px);gap:10px 16px}
+ .brand-aligned .hero-actions{margin-top:clamp(18px,3.5cqh,32px);gap:18px 28px;flex-wrap:wrap}
+ .brand-aligned .hero-actions .btn{min-height:52px}
+ .brand-aligned .hero-note{font-size:clamp(13px,1.8cqh,17px);margin-top:clamp(12px,2.4cqh,22px)}
+ .brand-aligned .hero-stats{flex:none;padding-block:clamp(16px,3cqh,28px);grid-template-columns:repeat(3,minmax(0,1fr))}
+ .brand-aligned .hero-stat,.brand-aligned .hero-stat:first-child{display:block;min-width:0}
+ .brand-aligned .hero-stat strong,.brand-aligned .hero-stat .stat-document{font-size:clamp(24px,min(2.1vw,4.7cqh),44px);line-height:1.15;min-width:0;margin-bottom:6px;white-space:nowrap}
+ .brand-aligned .hero-stat>span{font-size:clamp(13px,1.8cqh,17px);line-height:1.4;display:block}
+ .brand-aligned .hero-aside{margin-bottom:0;max-width:100%;align-self:end;padding-top:16px}
+ .hero-photo-credit{top:clamp(16px,3cqh,26px)}
+}
+@media(min-width:761px) and (max-height:800px){
+ .brand-aligned .hero-main{padding-block:20px}
+ .brand-aligned .hero h1{font-size:clamp(32px,min(4vw,8cqh),64px);margin-bottom:16px}
+ .brand-aligned .hero .eyebrow{font-size:13px;margin-bottom:14px}
+ .brand-aligned .hero-desc{font-size:16px;line-height:1.4}
+ .brand-aligned .hero-benefits{font-size:13px;margin-top:12px}
+ .brand-aligned .hero-actions{margin-top:18px;gap:14px 20px}
+ .brand-aligned .hero-note{font-size:13px;margin-top:12px}
+ .brand-aligned .hero-stats{padding-block:14px}
+ .brand-aligned .hero-stat strong,.brand-aligned .hero-stat .stat-document{font-size:26px}
+ .brand-aligned .hero-stat>span{font-size:13px}
+}
+@media(min-width:761px) and (max-height:700px){
+ .brand-aligned .hero-main{padding-block:16px}
+ .brand-aligned .hero h1{font-size:clamp(30px,min(4vw,7.7cqh),54px);margin-bottom:14px}
+ .brand-aligned .hero .eyebrow{margin-bottom:12px}
+ .hero-desc-desktop{display:none}
+ .hero-desc-mobile{display:inline}
+ .brand-aligned .hero-benefits,.brand-aligned .hero-aside{display:none}
+ .brand-aligned .hero-actions{margin-top:16px;gap:12px 18px}
+ .brand-aligned .hero-note{margin-top:10px}
+ .brand-aligned .hero-stats{padding-block:12px}
+ .brand-aligned .hero-stat strong,.brand-aligned .hero-stat .stat-document{font-size:24px}
+ .hero-photo:after{background:linear-gradient(90deg,#041e2cf5 0%,#041e2ce0 40%,#041e2cbf 60%,#041e2c15 85%),linear-gradient(0deg,#041e2c 0%,#041e2c80 25%,transparent 70%)}
+}
+/* A portrait window gets a separate photograph, preserving the entire aircraft. */
+@media(min-width:761px) and (max-aspect-ratio:5/4){
+ .brand-aligned .hero{background:linear-gradient(135deg,#0b3042,#041e2c 75%)}
+ .brand-aligned .hero-photo,.hero-photo-credit,.brand-aligned .hero-aside{display:none}
+ .brand-aligned .hero-main{grid-template-columns:minmax(0,1fr);padding-block:22px}
+ .brand-aligned .hero-copy{max-width:56em}
+ .brand-aligned .hero h1{font-size:clamp(32px,min(4.6vw,6cqh),72px)}
+ .brand-aligned .hero-desc{max-width:44em}
+ .hero-aircraft-mobile{display:flex;flex-direction:column;flex:none;height:clamp(220px,30cqh,340px);margin:0 0 22px;border:1px solid #9bbbd744;background:#082836}
+ .hero-aircraft-mobile picture{flex:1;min-height:0;display:block;overflow:hidden}
+ .hero-aircraft-mobile img{width:100%;height:100%;object-fit:cover;object-position:center 25%}
+ .hero-aircraft-mobile figcaption{display:flex;justify-content:space-between;gap:16px;padding:10px 16px;font-size:13px;line-height:1.4;color:#c1d7e6}
+ .hero-aircraft-mobile figcaption>a{color:#89c9f6}
+}
+@media(min-width:1101px) and (max-aspect-ratio:5/4){
+ .hero-aircraft-mobile{height:clamp(280px,calc(23vw + 44px),500px)}
+ .brand-aligned .hero h1{font-size:clamp(30px,min(4.6vw,4.3cqh),64px);margin-bottom:14px}
+ .brand-aligned .hero .eyebrow{font-size:13px;margin-bottom:12px}
+ .hero-desc-desktop{display:none}
+ .hero-desc-mobile{display:inline}
+ .brand-aligned .hero-actions{margin-top:16px}
+ .brand-aligned .hero-note{margin-top:10px}
+ .brand-aligned .hero-benefits{display:none}
+}
+/* Very short windows and enlarged browser text retain natural document scrolling. */
+@media(min-width:761px) and (max-height:540px){
+ .brand-aligned .hero{height:auto;container-type:normal}
+ .brand-aligned .hero-main{min-height:360px;align-items:start;padding-block:22px}
+ .brand-aligned .hero h1{font-size:34px}
+ .brand-aligned .hero-stat strong,.brand-aligned .hero-stat .stat-document{font-size:24px}
+}
+@media print{.brand-aligned .hero{height:auto;container-type:normal}.brand-aligned .hero-main{min-height:0}}
