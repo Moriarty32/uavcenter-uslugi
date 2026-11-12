@@ -2530,5 +2530,931 @@
     "reducedMotionResetsParallax": true,
     "reducedMotionStopsRollover": true,
     "formSuccessStateContrast": true
+  },
+  "resultsV7": {
+    "viewports": [
+      {
+        "width": 320,
+        "scroll": 320,
+        "navVisible": false,
+        "nav": {
+          "height": 0,
+          "scrollHeight": 0,
+          "width": 0,
+          "scrollWidth": 0,
+          "overflowX": "visible",
+          "overflowY": "visible"
+        },
+        "links": []
+      },
+      {
+        "width": 360,
+        "scroll": 360,
+        "navVisible": false,
+        "nav": {
+          "height": 0,
+          "scrollHeight": 0,
+          "width": 0,
+          "scrollWidth": 0,
+          "overflowX": "visible",
+          "overflowY": "visible"
+        },
+        "links": []
+      },
+      {
+        "width": 390,
+        "scroll": 390,
+        "navVisible": false,
+        "nav": {
+          "height": 0,
+          "scrollHeight": 0,
+          "width": 0,
+          "scrollWidth": 0,
+          "overflowX": "visible",
+          "overflowY": "visible"
+        },
+        "links": []
+      },
+      {
+        "width": 430,
+        "scroll": 430,
+        "navVisible": false,
+        "nav": {
+          "height": 0,
+          "scrollHeight": 0,
+          "width": 0,
+          "scrollWidth": 0,
+          "overflowX": "visible",
+          "overflowY": "visible"
+        },
+        "links": []
+      },
+      {
+        "width": 600,
+        "scroll": 600,
+        "navVisible": false,
+        "nav": {
+          "height": 0,
+          "scrollHeight": 0,
+          "width": 0,
+          "scrollWidth": 0,
+          "overflowX": "visible",
+          "overflowY": "visible"
+        },
+        "links": []
+      },
+      {
+        "width": 768,
+        "scroll": 768,
+        "navVisible": true,
+        "nav": {
+          "height": 68,
+          "scrollHeight": 68,
+          "width": 737,
+          "scrollWidth": 737,
+          "overflowX": "visible",
+          "overflowY": "visible"
+        },
+        "links": [
+          {
+            "left": 15.359375,
+            "right": 102.6875,
+            "top": 375.15625,
+            "bottom": 435.15625
+          },
+          {
+            "left": 177.359375,
+            "right": 260.40625,
+            "top": 375.15625,
+            "bottom": 435.15625
+          },
+          {
+            "left": 335.09375,
+            "right": 432.140625,
+            "top": 375.15625,
+            "bottom": 435.15625
+          },
+          {
+            "left": 506.8125,
+            "right": 593.5625,
+            "top": 375.15625,
+            "bottom": 435.15625
+          },
+          {
+            "left": 668.234375,
+            "right": 752.625,
+            "top": 375.15625,
+            "bottom": 435.15625
+          }
+        ]
+      },
+      {
+        "width": 820,
+        "scroll": 820,
+        "navVisible": true,
+        "nav": {
+          "height": 68,
+          "scrollHeight": 68,
+          "width": 787,
+          "scrollWidth": 787,
+          "overflowX": "visible",
+          "overflowY": "visible"
+        },
+        "links": [
+          {
+            "left": 16.40625,
+            "right": 103.734375,
+            "top": 4,
+            "bottom": 64
+          },
+          {
+            "left": 190.890625,
+            "right": 273.9375,
+            "top": 4,
+            "bottom": 64
+          },
+          {
+            "left": 361.09375,
+            "right": 458.140625,
+            "top": 4,
+            "bottom": 64
+          },
+          {
+            "left": 545.296875,
+            "right": 632.046875,
+            "top": 4,
+            "bottom": 64
+          },
+          {
+            "left": 719.203125,
+            "right": 803.59375,
+            "top": 4,
+            "bottom": 64
+          }
+        ]
+      },
+      {
+        "width": 1024,
+        "scroll": 1024,
+        "navVisible": true,
+        "nav": {
+          "height": 68,
+          "scrollHeight": 68,
+          "width": 983,
+          "scrollWidth": 983,
+          "overflowX": "visible",
+          "overflowY": "visible"
+        },
+        "links": [
+          {
+            "left": 20.484375,
+            "right": 107.8125,
+            "top": 4,
+            "bottom": 64
+          },
+          {
+            "left": 243.9375,
+            "right": 326.984375,
+            "top": 4,
+            "bottom": 64
+          },
+          {
+            "left": 463.09375,
+            "right": 560.140625,
+            "top": 4,
+            "bottom": 64
+          },
+          {
+            "left": 696.265625,
+            "right": 783.015625,
+            "top": 4,
+            "bottom": 64
+          },
+          {
+            "left": 919.125,
+            "right": 1003.515625,
+            "top": 4,
+            "bottom": 64
+          }
+        ]
+      },
+      {
+        "width": 1280,
+        "scroll": 1280,
+        "navVisible": true,
+        "nav": {
+          "height": 68,
+          "scrollHeight": 68,
+          "width": 1229,
+          "scrollWidth": 1229,
+          "overflowX": "visible",
+          "overflowY": "visible"
+        },
+        "links": [
+          {
+            "left": 25.59375,
+            "right": 112.921875,
+            "top": 0,
+            "bottom": 68
+          },
+          {
+            "left": 245.9375,
+            "right": 328.984375,
+            "top": 0,
+            "bottom": 68
+          },
+          {
+            "left": 462,
+            "right": 559.046875,
+            "top": 0,
+            "bottom": 68
+          },
+          {
+            "left": 692.078125,
+            "right": 778.828125,
+            "top": 0,
+            "bottom": 68
+          },
+          {
+            "left": 911.84375,
+            "right": 996.234375,
+            "top": 0,
+            "bottom": 68
+          },
+          {
+            "left": 1129.25,
+            "right": 1254.390625,
+            "top": 0,
+            "bottom": 68
+          }
+        ]
+      },
+      {
+        "width": 1440,
+        "scroll": 1440,
+        "navVisible": true,
+        "nav": {
+          "height": 68,
+          "scrollHeight": 68,
+          "width": 1382,
+          "scrollWidth": 1382,
+          "overflowX": "visible",
+          "overflowY": "visible"
+        },
+        "links": [
+          {
+            "left": 28.796875,
+            "right": 116.125,
+            "top": 213.671875,
+            "bottom": 281.671875
+          },
+          {
+            "left": 279.859375,
+            "right": 362.90625,
+            "top": 213.671875,
+            "bottom": 281.671875
+          },
+          {
+            "left": 526.640625,
+            "right": 623.6875,
+            "top": 213.671875,
+            "bottom": 281.671875
+          },
+          {
+            "left": 787.4375,
+            "right": 874.1875,
+            "top": 213.671875,
+            "bottom": 281.671875
+          },
+          {
+            "left": 1037.921875,
+            "right": 1122.3125,
+            "top": 213.671875,
+            "bottom": 281.671875
+          },
+          {
+            "left": 1286.046875,
+            "right": 1411.1875,
+            "top": 213.671875,
+            "bottom": 281.671875
+          }
+        ]
+      },
+      {
+        "width": 1851,
+        "scroll": 1851,
+        "navVisible": true,
+        "nav": {
+          "height": 68,
+          "scrollHeight": 68,
+          "width": 1777,
+          "scrollWidth": 1777,
+          "overflowX": "visible",
+          "overflowY": "visible"
+        },
+        "links": [
+          {
+            "left": 37.015625,
+            "right": 140.953125,
+            "top": 294.171875,
+            "bottom": 362.171875
+          },
+          {
+            "left": 361.203125,
+            "right": 458.9375,
+            "top": 294.171875,
+            "bottom": 362.171875
+          },
+          {
+            "left": 679.1875,
+            "right": 794.5,
+            "top": 294.171875,
+            "bottom": 362.171875
+          },
+          {
+            "left": 1014.734375,
+            "right": 1116.984375,
+            "top": 294.171875,
+            "bottom": 362.171875
+          },
+          {
+            "left": 1337.234375,
+            "right": 1436.578125,
+            "top": 294.171875,
+            "bottom": 362.171875
+          },
+          {
+            "left": 1656.828125,
+            "right": 1813.96875,
+            "top": 294.171875,
+            "bottom": 362.171875
+          }
+        ]
+      },
+      {
+        "width": 1920,
+        "scroll": 1920,
+        "navVisible": true,
+        "nav": {
+          "height": 68,
+          "scrollHeight": 68,
+          "width": 1843,
+          "scrollWidth": 1843,
+          "overflowX": "visible",
+          "overflowY": "visible"
+        },
+        "links": [
+          {
+            "left": 38.40625,
+            "right": 144.28125,
+            "top": 23.625,
+            "bottom": 91.625
+          },
+          {
+            "left": 375.15625,
+            "right": 474.609375,
+            "top": 23.625,
+            "bottom": 91.625
+          },
+          {
+            "left": 705.46875,
+            "right": 822.921875,
+            "top": 23.625,
+            "bottom": 91.625
+          },
+          {
+            "left": 1053.796875,
+            "right": 1157.859375,
+            "top": 23.625,
+            "bottom": 91.625
+          },
+          {
+            "left": 1388.71875,
+            "right": 1489.828125,
+            "top": 23.625,
+            "bottom": 91.625
+          },
+          {
+            "left": 1720.703125,
+            "right": 1881.59375,
+            "top": 23.625,
+            "bottom": 91.625
+          }
+        ]
+      },
+      {
+        "width": 2560,
+        "scroll": 2560,
+        "navVisible": true,
+        "nav": {
+          "height": 68,
+          "scrollHeight": 68,
+          "width": 2458,
+          "scrollWidth": 2458,
+          "overflowX": "visible",
+          "overflowY": "visible"
+        },
+        "links": [
+          {
+            "left": 51.203125,
+            "right": 157.078125,
+            "top": 183.3125,
+            "bottom": 251.3125
+          },
+          {
+            "left": 510.828125,
+            "right": 610.28125,
+            "top": 183.3125,
+            "bottom": 251.3125
+          },
+          {
+            "left": 964.03125,
+            "right": 1081.484375,
+            "top": 183.3125,
+            "bottom": 251.3125
+          },
+          {
+            "left": 1435.234375,
+            "right": 1539.296875,
+            "top": 183.3125,
+            "bottom": 251.3125
+          },
+          {
+            "left": 1893.046875,
+            "right": 1994.15625,
+            "top": 183.3125,
+            "bottom": 251.3125
+          },
+          {
+            "left": 2347.90625,
+            "right": 2508.796875,
+            "top": 183.3125,
+            "bottom": 251.3125
+          }
+        ]
+      }
+    ],
+    "panels": [
+      {
+        "width": 320,
+        "id": "plan",
+        "src": "http://127.0.0.1:4180/uslugi/assets/result-plan-v7-640.webp",
+        "renderWidth": 282,
+        "renderHeight": 158.625
+      },
+      {
+        "width": 320,
+        "id": "model",
+        "src": "http://127.0.0.1:4180/uslugi/assets/result-model-v7-640.webp",
+        "renderWidth": 282,
+        "renderHeight": 158.625
+      },
+      {
+        "width": 320,
+        "id": "volume",
+        "src": "http://127.0.0.1:4180/uslugi/assets/result-volume-v7-640.webp",
+        "renderWidth": 282,
+        "renderHeight": 158.625
+      },
+      {
+        "width": 360,
+        "id": "plan",
+        "src": "http://127.0.0.1:4180/uslugi/assets/result-plan-v7-640.webp",
+        "renderWidth": 322,
+        "renderHeight": 181.125
+      },
+      {
+        "width": 360,
+        "id": "model",
+        "src": "http://127.0.0.1:4180/uslugi/assets/result-model-v7-640.webp",
+        "renderWidth": 322,
+        "renderHeight": 181.125
+      },
+      {
+        "width": 360,
+        "id": "volume",
+        "src": "http://127.0.0.1:4180/uslugi/assets/result-volume-v7-640.webp",
+        "renderWidth": 322,
+        "renderHeight": 181.125
+      },
+      {
+        "width": 390,
+        "id": "plan",
+        "src": "http://127.0.0.1:4180/uslugi/assets/result-plan-v7-640.webp",
+        "renderWidth": 352,
+        "renderHeight": 198
+      },
+      {
+        "width": 390,
+        "id": "model",
+        "src": "http://127.0.0.1:4180/uslugi/assets/result-model-v7-640.webp",
+        "renderWidth": 352,
+        "renderHeight": 198
+      },
+      {
+        "width": 390,
+        "id": "volume",
+        "src": "http://127.0.0.1:4180/uslugi/assets/result-volume-v7-640.webp",
+        "renderWidth": 352,
+        "renderHeight": 198
+      },
+      {
+        "width": 430,
+        "id": "plan",
+        "src": "http://127.0.0.1:4180/uslugi/assets/result-plan-v7-640.webp",
+        "renderWidth": 392,
+        "renderHeight": 220.5
+      },
+      {
+        "width": 430,
+        "id": "model",
+        "src": "http://127.0.0.1:4180/uslugi/assets/result-model-v7-640.webp",
+        "renderWidth": 392,
+        "renderHeight": 220.5
+      },
+      {
+        "width": 430,
+        "id": "volume",
+        "src": "http://127.0.0.1:4180/uslugi/assets/result-volume-v7-640.webp",
+        "renderWidth": 392,
+        "renderHeight": 220.5
+      },
+      {
+        "width": 600,
+        "id": "plan",
+        "src": "http://127.0.0.1:4180/uslugi/assets/result-plan-v7-640.webp",
+        "renderWidth": 562,
+        "renderHeight": 316.125
+      },
+      {
+        "width": 600,
+        "id": "model",
+        "src": "http://127.0.0.1:4180/uslugi/assets/result-model-v7-640.webp",
+        "renderWidth": 562,
+        "renderHeight": 316.125
+      },
+      {
+        "width": 600,
+        "id": "volume",
+        "src": "http://127.0.0.1:4180/uslugi/assets/result-volume-v7-640.webp",
+        "renderWidth": 562,
+        "renderHeight": 316.125
+      },
+      {
+        "width": 768,
+        "id": "plan",
+        "src": "http://127.0.0.1:4180/uslugi/assets/result-plan-v7-960.webp",
+        "renderWidth": 735.265625,
+        "renderHeight": 413.578125
+      },
+      {
+        "width": 768,
+        "id": "model",
+        "src": "http://127.0.0.1:4180/uslugi/assets/result-model-v7-960.webp",
+        "renderWidth": 735.265625,
+        "renderHeight": 413.578125
+      },
+      {
+        "width": 768,
+        "id": "volume",
+        "src": "http://127.0.0.1:4180/uslugi/assets/result-volume-v7-960.webp",
+        "renderWidth": 735.265625,
+        "renderHeight": 413.578125
+      },
+      {
+        "width": 820,
+        "id": "plan",
+        "src": "http://127.0.0.1:4180/uslugi/assets/result-plan-v7-960.webp",
+        "renderWidth": 785.1875,
+        "renderHeight": 441.65625
+      },
+      {
+        "width": 820,
+        "id": "model",
+        "src": "http://127.0.0.1:4180/uslugi/assets/result-model-v7-960.webp",
+        "renderWidth": 785.1875,
+        "renderHeight": 441.65625
+      },
+      {
+        "width": 820,
+        "id": "volume",
+        "src": "http://127.0.0.1:4180/uslugi/assets/result-volume-v7-960.webp",
+        "renderWidth": 785.1875,
+        "renderHeight": 441.65625
+      },
+      {
+        "width": 1024,
+        "id": "plan",
+        "src": "http://127.0.0.1:4180/uslugi/assets/result-plan-v7-1280.webp",
+        "renderWidth": 981.03125,
+        "renderHeight": 551.828125
+      },
+      {
+        "width": 1024,
+        "id": "model",
+        "src": "http://127.0.0.1:4180/uslugi/assets/result-model-v7-1280.webp",
+        "renderWidth": 981.03125,
+        "renderHeight": 551.828125
+      },
+      {
+        "width": 1024,
+        "id": "volume",
+        "src": "http://127.0.0.1:4180/uslugi/assets/result-volume-v7-1280.webp",
+        "renderWidth": 981.03125,
+        "renderHeight": 551.828125
+      },
+      {
+        "width": 1280,
+        "id": "plan",
+        "src": "http://127.0.0.1:4180/uslugi/assets/result-plan-v7-1280.webp",
+        "renderWidth": 627.875,
+        "renderHeight": 353.171875
+      },
+      {
+        "width": 1280,
+        "id": "model",
+        "src": "http://127.0.0.1:4180/uslugi/assets/result-model-v7-1280.webp",
+        "renderWidth": 627.875,
+        "renderHeight": 353.171875
+      },
+      {
+        "width": 1280,
+        "id": "volume",
+        "src": "http://127.0.0.1:4180/uslugi/assets/result-volume-v7-1280.webp",
+        "renderWidth": 627.875,
+        "renderHeight": 353.171875
+      },
+      {
+        "width": 1440,
+        "id": "plan",
+        "src": "http://127.0.0.1:4180/uslugi/assets/result-plan-v7-1280.webp",
+        "renderWidth": 706.609375,
+        "renderHeight": 397.453125
+      },
+      {
+        "width": 1440,
+        "id": "model",
+        "src": "http://127.0.0.1:4180/uslugi/assets/result-model-v7-1280.webp",
+        "renderWidth": 706.609375,
+        "renderHeight": 397.453125
+      },
+      {
+        "width": 1440,
+        "id": "volume",
+        "src": "http://127.0.0.1:4180/uslugi/assets/result-volume-v7-1280.webp",
+        "renderWidth": 706.609375,
+        "renderHeight": 397.453125
+      },
+      {
+        "width": 1851,
+        "id": "plan",
+        "src": "http://127.0.0.1:4180/uslugi/assets/result-plan-v7-1280.webp",
+        "renderWidth": 908.859375,
+        "renderHeight": 511.21875
+      },
+      {
+        "width": 1851,
+        "id": "model",
+        "src": "http://127.0.0.1:4180/uslugi/assets/result-model-v7-1280.webp",
+        "renderWidth": 908.859375,
+        "renderHeight": 511.21875
+      },
+      {
+        "width": 1851,
+        "id": "volume",
+        "src": "http://127.0.0.1:4180/uslugi/assets/result-volume-v7-1280.webp",
+        "renderWidth": 908.859375,
+        "renderHeight": 511.21875
+      },
+      {
+        "width": 1920,
+        "id": "plan",
+        "src": "http://127.0.0.1:4180/uslugi/assets/result-plan-v7-1280.webp",
+        "renderWidth": 942.8125,
+        "renderHeight": 530.328125
+      },
+      {
+        "width": 1920,
+        "id": "model",
+        "src": "http://127.0.0.1:4180/uslugi/assets/result-model-v7-1280.webp",
+        "renderWidth": 942.8125,
+        "renderHeight": 530.328125
+      },
+      {
+        "width": 1920,
+        "id": "volume",
+        "src": "http://127.0.0.1:4180/uslugi/assets/result-volume-v7-1280.webp",
+        "renderWidth": 942.8125,
+        "renderHeight": 530.328125
+      },
+      {
+        "width": 2560,
+        "id": "plan",
+        "src": "http://127.0.0.1:4180/uslugi/assets/result-plan-v7-1280.webp",
+        "renderWidth": 1259.03125,
+        "renderHeight": 708.203125
+      },
+      {
+        "width": 2560,
+        "id": "model",
+        "src": "http://127.0.0.1:4180/uslugi/assets/result-model-v7-1280.webp",
+        "renderWidth": 1259.03125,
+        "renderHeight": 708.203125
+      },
+      {
+        "width": 2560,
+        "id": "volume",
+        "src": "http://127.0.0.1:4180/uslugi/assets/result-volume-v7-1280.webp",
+        "renderWidth": 1259.03125,
+        "renderHeight": 708.203125
+      }
+    ],
+    "accessibility": [
+      {
+        "width": 390,
+        "id": "plan",
+        "violations": 0
+      },
+      {
+        "width": 390,
+        "id": "model",
+        "violations": 0
+      },
+      {
+        "width": 390,
+        "id": "volume",
+        "violations": 0
+      },
+      {
+        "width": 1851,
+        "id": "plan",
+        "violations": 0
+      },
+      {
+        "width": 1851,
+        "id": "model",
+        "violations": 0
+      },
+      {
+        "width": 1851,
+        "id": "volume",
+        "violations": 0
+      }
+    ],
+    "keyboardTabs": true,
+    "enlargedNavigationText": {
+      "width": 1440,
+      "scroll": 1440,
+      "navScroll": 0
+    },
+    "errors": [],
+    "failed": [],
+    "generatedImageDisclosure": "Изображения сгенерированы для демонстрации типов материалов. Образец фактической выдачи под вашу задачу можно запросить у инженера.",
+    "imageAssets": [
+      {
+        "file": "uslugi/assets/result-plan-v7-640.webp",
+        "size": [
+          640,
+          360
+        ],
+        "bytes": 125570,
+        "originalSize": [
+          1672,
+          941
+        ]
+      },
+      {
+        "file": "uslugi/assets/result-plan-v7-960.webp",
+        "size": [
+          960,
+          540
+        ],
+        "bytes": 278794,
+        "originalSize": [
+          1672,
+          941
+        ]
+      },
+      {
+        "file": "uslugi/assets/result-plan-v7-1280.webp",
+        "size": [
+          1280,
+          720
+        ],
+        "bytes": 488012,
+        "originalSize": [
+          1672,
+          941
+        ]
+      },
+      {
+        "file": "uslugi/assets/result-plan-v7-1600.webp",
+        "size": [
+          1600,
+          900
+        ],
+        "bytes": 729650,
+        "originalSize": [
+          1672,
+          941
+        ]
+      },
+      {
+        "file": "uslugi/assets/result-model-v7-640.webp",
+        "size": [
+          640,
+          360
+        ],
+        "bytes": 133654,
+        "originalSize": [
+          1672,
+          941
+        ]
+      },
+      {
+        "file": "uslugi/assets/result-model-v7-960.webp",
+        "size": [
+          960,
+          540
+        ],
+        "bytes": 299736,
+        "originalSize": [
+          1672,
+          941
+        ]
+      },
+      {
+        "file": "uslugi/assets/result-model-v7-1280.webp",
+        "size": [
+          1280,
+          720
+        ],
+        "bytes": 522858,
+        "originalSize": [
+          1672,
+          941
+        ]
+      },
+      {
+        "file": "uslugi/assets/result-model-v7-1600.webp",
+        "size": [
+          1600,
+          900
+        ],
+        "bytes": 784532,
+        "originalSize": [
+          1672,
+          941
+        ]
+      },
+      {
+        "file": "uslugi/assets/result-volume-v7-640.webp",
+        "size": [
+          640,
+          360
+        ],
+        "bytes": 122416,
+        "originalSize": [
+          1672,
+          941
+        ]
+      },
+      {
+        "file": "uslugi/assets/result-volume-v7-960.webp",
+        "size": [
+          960,
+          540
+        ],
+        "bytes": 279626,
+        "originalSize": [
+          1672,
+          941
+        ]
+      },
+      {
+        "file": "uslugi/assets/result-volume-v7-1280.webp",
+        "size": [
+          1280,
+          720
+        ],
+        "bytes": 501848,
+        "originalSize": [
+          1672,
+          941
+        ]
+      },
+      {
+        "file": "uslugi/assets/result-volume-v7-1600.webp",
+        "size": [
+          1600,
+          900
+        ],
+        "bytes": 756840,
+        "originalSize": [
+          1672,
+          941
+        ]
+      }
+    ]
   }
 }

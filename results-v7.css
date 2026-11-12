@@ -1,0 +1,21 @@
+/* The section links size their row instead of overflowing a fixed 65px box. */
+.brand-aligned .page-nav .container{height:auto;min-height:68px;overflow:visible;gap:12px 24px;flex-wrap:wrap}
+.brand-aligned .page-nav a{display:inline-flex;align-items:center;min-height:68px;padding:12px 0;line-height:1.4;flex-shrink:0}
+.brand-aligned .page-nav a>span{margin-right:9px}
+.brand-aligned .page-nav a:focus-visible{outline-offset:-3px}
+/* Every generated deliverable is framed consistently, with no cropped geometry. */
+.brand-aligned .result-image{height:auto;aspect-ratio:16/9;background:#163a48}
+.result-image picture{display:block;width:100%;height:100%}
+.brand-aligned .result-image picture>img{display:block;width:100%;height:100%;object-fit:contain;filter:none;opacity:1}
+.brand-aligned .result-window-top{flex-wrap:wrap;gap:8px 20px}
+.brand-aligned .window-type{font-size:13px;letter-spacing:0}
+.brand-aligned .result-caption{max-width:52em;font-size:14px;line-height:1.5}
+@media(min-width:761px) and (max-width:1100px){
+ .brand-aligned .page-nav .container{gap:8px 20px}
+ .brand-aligned .page-nav a{min-height:60px;font-size:14px}
+ .brand-aligned .page-nav .jump{display:none}
+}
+@media(max-width:760px){
+ .brand-aligned .result-window-top{padding:16px;font-size:15px}
+ .brand-aligned .window-type{font-size:13px}
+}
