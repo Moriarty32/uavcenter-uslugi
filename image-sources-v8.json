@@ -1,17 +1,24 @@
 {
   "hero": {
-    "sourcePage": "https://www.geoscan.ru/ru/products/geoscan201",
-    "sourceImage": "https://www.geoscan.ru/sites/default/files/2018-05/Header_201_600.jpg",
-    "sourcePixels": [
+    "aircraftReference": "https://www.geoscan.ru/ru/products/geoscan201",
+    "referenceImage": "https://www.geoscan.ru/sites/default/files/2018-05/Header_201_600.jpg",
+    "currentAsset": "assets/hero-geoscan201-landscape-1920.webp",
+    "currentPixels": [
       1920,
       600
     ],
-    "operations": [
-      "horizontal mirror to place aircraft opposite copy",
-      "downsampling and WebP encoding",
-      "separate mobile crop [720,50,1730,520]"
+    "editedBackground": true,
+    "method": "Built-in imagegen reference edit: retain Geoscan 201 aircraft identity and framing, replace wheat field with river valley, forest, access road and distant work site",
+    "renderPixels": [
+      2172,
+      724
     ],
-    "generated": false
+    "operations": [
+      "Lanczos resize to 1920x640, centered vertical crop to 1920x600",
+      "WebP quality 95",
+      "Same mobile crop [720,50,1730,520]"
+    ],
+    "generated": true
   },
   "topographicPlan": {
     "source": "Client supplied Сузун.pdf",
@@ -35,6 +42,20 @@
     ],
     "scale": "1:500",
     "contourInterval": "0.5 m",
+    "generated": false
+  },
+  "originalHero": {
+    "sourcePage": "https://www.geoscan.ru/ru/products/geoscan201",
+    "sourceImage": "https://www.geoscan.ru/sites/default/files/2018-05/Header_201_600.jpg",
+    "sourcePixels": [
+      1920,
+      600
+    ],
+    "operations": [
+      "horizontal mirror to place aircraft opposite copy",
+      "downsampling and WebP encoding",
+      "separate mobile crop [720,50,1730,520]"
+    ],
     "generated": false
   }
 }
