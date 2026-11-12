@@ -1,5 +1,5 @@
 {
-  "version": 13,
+  "version": 14,
   "viewports": [
     {
       "width": 320,
@@ -2284,6 +2284,34 @@
       "Original menus, tabs, map projects, forms, downloads and both hover modes work offline"
     ],
     "browserErrors": [],
+    "failedRequests": []
+  },
+  "geodeticLicense": {
+    "testedAt": "2026-11-12T12:37:10.446959+00:00",
+    "number": "Л036-00116-54/02109758",
+    "issued": "2025-04-11",
+    "sources": [
+      "https://uavcenter.ru/wp-json/wp/v2/pages?slug=documents",
+      "https://uavcenter.ru/wp-content/themes/uavcenter/assets/migrated/assets/images/lic-prev-extract-CJR4vXEN.webp",
+      "https://uavcenter.ru/wp-content/themes/uavcenter/assets/migrated/assets/images/lic-prev-notice-CHMCO0Vw.webp"
+    ],
+    "checks": [
+      "Hero benefit and proof row link to highlighted license card",
+      "Number, issue date and issuer transcribed from published register extract and notice",
+      "Original full-resolution document images copied without modification and open offline",
+      "Operator certificate AP-289 remains a separate secondary document",
+      "No claim about registry status after the published extract date",
+      "Five card layouts and 14 hero viewports checked; no horizontal overflow",
+      "Homepage export unchanged byte for byte"
+    ],
+    "widths": [
+      320,
+      390,
+      768,
+      1440,
+      1920
+    ],
+    "errors": [],
     "failedRequests": []
   }
 }

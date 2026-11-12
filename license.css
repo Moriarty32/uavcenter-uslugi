@@ -1,0 +1,85 @@
+.brand-aligned .hero-benefits .hero-license-benefit {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 8px;
+  color: #f4e4ba;
+  text-decoration: underline;
+  text-decoration-color: #f4e4ba55;
+  text-underline-offset: 4px;
+}
+.hero-license-benefit::before { content: '✓'; color: #4ba5ec; }
+.hero-license-benefit:hover { text-decoration-color: currentColor; }
+.brand-aligned .hero-stat-license .stat-document { color: #f4e4ba; }
+
+.geodetic-license-card {
+  display: grid;
+  grid-template-columns: 94px minmax(0, 1fr);
+  gap: 22px;
+  margin-top: 26px;
+  padding: 24px;
+  border: 1px solid #81b7d977;
+  border-left: 3px solid #f4e4ba;
+  background: #113a50;
+  scroll-margin-top: clamp(96px, 12vw, 180px);
+}
+.geodetic-license-preview { display: block; align-self: start; }
+.geodetic-license-preview img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid #c5dce7;
+  box-shadow: 0 8px 24px #00121e33;
+}
+.geodetic-license-card h4 {
+  margin: 0 0 12px;
+  color: #f4e4ba;
+  font: 400 clamp(19px, 1.45vw, 26px)/1.25 Suisse, Arial, sans-serif;
+  letter-spacing: -.02em;
+}
+.brand-aligned .geodetic-license-card p { margin: 0; font-size: 15px; line-height: 1.5; }
+.brand-aligned .geodetic-license-card .geodetic-license-number {
+  color: #ebecf1;
+  overflow-wrap: anywhere;
+}
+.brand-aligned .geodetic-license-card .geodetic-license-issuer {
+  margin-top: 6px;
+  color: #b9d1df;
+}
+.geodetic-license-links { display: flex; flex-wrap: wrap; gap: 0 22px; margin-top: 12px; }
+.license-document-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 44px;
+  color: #f4e4ba;
+  font: 400 15px/1.4 Suisse, Arial, sans-serif;
+  text-decoration: underline;
+  text-decoration-color: #f4e4ba66;
+  text-underline-offset: 5px;
+  transition: color .25s, text-decoration-color .25s;
+}
+.license-document-link:hover { color: #90ccf4; text-decoration-color: currentColor; }
+.geodetic-secondary-document {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 44px;
+  margin-top: 16px;
+  color: #b9d1df;
+  font: 400 15px/1.4 Suisse, Arial, sans-serif;
+}
+.geodetic-secondary-document:hover { color: #90ccf4; }
+
+@media (max-width: 760px) {
+  .geodetic-license-card { grid-template-columns: 72px minmax(0, 1fr); gap: 16px; padding: 18px 16px; scroll-margin-top: 88px; }
+  .geodetic-license-card h4 { font-size: 20px; }
+  .brand-aligned .geodetic-license-card p { font-size: 14px; }
+  .geodetic-license-links { grid-column: 1 / -1; gap: 0 18px; }
+}
+@media (max-width: 400px) {
+  .geodetic-license-card { grid-template-columns: 1fr; }
+  .geodetic-license-preview { width: 74px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .license-document-link { transition: none; }
+}
