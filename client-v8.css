@@ -1,0 +1,33 @@
+/* Client materials: real Geoscan 201 photograph and the supplied vector plan. */
+.hero-photo img{object-position:82% center}
+.hero-photo:after{background:linear-gradient(90deg,#041e2cf2 0%,#041e2cb5 35%,#041e2c25 68%,#041e2c10),linear-gradient(0deg,#041e2c 0%,#041e2c75 20%,transparent 65%)}
+.hero-photo-credit{position:absolute;right:2vw;top:24px;display:inline-flex;align-items:center;gap:14px;font-size:13px;line-height:1.5;color:#dfebf3;background:#041e2cbf;border:1px solid #bddeef33;padding:7px 12px;z-index:1}
+.hero-photo-credit:hover{color:#9fd8ff}
+.hero-aircraft-mobile{display:none}
+.brand-aligned .result-window-topoplan .result-image{background:#fff;position:relative;display:block;color:#eaf1f7;cursor:zoom-in}
+.brand-aligned .result-window-topoplan .result-image img{object-fit:contain}
+.plan-open-label{position:absolute;bottom:16px;right:16px;display:flex;align-items:center;gap:20px;min-height:44px;padding:10px 16px;font-size:14px;line-height:1.4;background:#041e2cee;border:1px solid #b2d3e755;transition:background .4s}
+.topoplan-open:hover .plan-open-label{background:#164a68}
+.topoplan-open:focus-visible{outline-offset:-4px}
+.plan-document{display:flex;justify-content:space-between;align-items:center;gap:18px 28px;padding:20px 24px;border-top:1px solid #b7cfe833;background:#092c3e;color:#e1edf5}
+.plan-document p{font-size:16px;line-height:1.4;color:#e1edf5}
+.plan-document>div>span{display:block;font-size:14px;line-height:1.4;color:#b6cddc;margin-top:6px}
+.plan-document .text-link{flex-shrink:0;font-size:16px;gap:16px;min-height:44px}
+.brand-aligned .result-window-topoplan .window-type{color:#335b74}
+@media(max-width:1100px){.plan-document{padding:18px 20px}}
+@media(max-width:760px){
+ .brand-aligned .hero-photo{display:none}
+ .brand-aligned .hero{background:linear-gradient(135deg,#0b3042,#041e2c 75%)}
+ .hero-photo-credit{display:none}
+ .hero-aircraft-mobile{display:block;margin:8px 0 26px;border:1px solid #9bbbd744;background:#082836}
+ .hero-aircraft-mobile picture{display:block;aspect-ratio:1010/470;overflow:hidden}
+ .hero-aircraft-mobile img{width:100%;height:100%;object-fit:cover}
+ .hero-aircraft-mobile figcaption{padding:12px 14px;font-size:13px;line-height:1.45;color:#c1d7e6}
+ .hero-aircraft-mobile figcaption>span{display:block}
+ .hero-aircraft-mobile figcaption>a{display:inline-flex;align-items:center;min-height:36px;color:#89c9f6}
+ .plan-document{flex-wrap:wrap;padding:18px 16px;gap:10px}
+ .plan-document p{font-size:16px}
+ .plan-document .text-link{margin-top:2px}
+ .plan-open-label{right:10px;bottom:10px;font-size:14px;padding:10px 12px;gap:14px}
+ .brand-aligned .result-tab h3{font-size:20px}
+}

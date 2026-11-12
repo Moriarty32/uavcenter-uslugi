@@ -1,0 +1,40 @@
+{
+  "hero": {
+    "sourcePage": "https://www.geoscan.ru/ru/products/geoscan201",
+    "sourceImage": "https://www.geoscan.ru/sites/default/files/2018-05/Header_201_600.jpg",
+    "sourcePixels": [
+      1920,
+      600
+    ],
+    "operations": [
+      "horizontal mirror to place aircraft opposite copy",
+      "downsampling and WebP encoding",
+      "separate mobile crop [720,50,1730,520]"
+    ],
+    "generated": false
+  },
+  "topographicPlan": {
+    "source": "Client supplied Сузун.pdf",
+    "originalUnchanged": "assets/documents/suzun-topographic-plan.pdf",
+    "pdfPoints": [
+      842,
+      1191
+    ],
+    "previewClipPdfPoints": [
+      170,
+      290,
+      730,
+      605
+    ],
+    "previewWidths": [
+      640,
+      960,
+      1280,
+      1600,
+      2240
+    ],
+    "scale": "1:500",
+    "contourInterval": "0.5 m",
+    "generated": false
+  }
+}
