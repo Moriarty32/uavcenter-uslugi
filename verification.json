@@ -1,5 +1,5 @@
 {
-  "version": 9,
+  "version": 10,
   "viewports": [
     {
       "width": 320,
@@ -2049,5 +2049,68 @@
   ],
   "errors": [],
   "failed": [],
-  "testedAt": "2026-11-12T10:29:59.473Z"
+  "testedAt": "2026-11-12T10:29:59.473Z",
+  "buttonSizing": {
+    "testedAt": "2026-11-12T10:38:14.278Z",
+    "previousVersion": 9,
+    "viewports": [
+      [
+        320,
+        568
+      ],
+      [
+        390,
+        844
+      ],
+      [
+        600,
+        800
+      ],
+      [
+        768,
+        1024
+      ],
+      [
+        1024,
+        600
+      ],
+      [
+        1280,
+        720
+      ],
+      [
+        1440,
+        900
+      ],
+      [
+        1920,
+        1080
+      ],
+      [
+        2560,
+        1440
+      ],
+      [
+        3440,
+        1440
+      ],
+      [
+        3840,
+        2160
+      ]
+    ],
+    "layoutAndFormStates": 55,
+    "checks": [
+      "Content-based width and 10–12px label/arrow gap",
+      "Labels and arrows fit inside each button without clipping",
+      "No horizontal page overflow from 320px to 4K",
+      "Desktop first screen fits viewport after sizing changes",
+      "All form steps and completion buttons",
+      "Original rolling-label and arrow hover animation without button resizing",
+      "Native select fallback stays hidden after enhanced control mounts",
+      "Hero copy, actions and proof fit five short and portrait monitor sizes"
+    ],
+    "errors": [],
+    "failedResponses": []
+  }
 }

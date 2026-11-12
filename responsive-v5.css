@@ -14,6 +14,8 @@
 .brand-aligned .trust-photo-note strong{font-size:18px;margin-bottom:5px}
 .brand-aligned .trust-panel.reveal{opacity:1;transform:none;animation:none}
 @media(prefers-reduced-motion:no-preference){.trust-photo.image-entered .trust-media>img{animation:team-settle .85s cubic-bezier(.22,1,.36,1) both}@keyframes team-settle{from{transform:scale(1.025)}to{transform:scale(1)}}}
+/* Keep the native fallback hidden after its designed control is mounted. */
+.brand-aligned .field select[hidden]{display:none}
 /* All selects use the same designed surface in forms, dialogs and unit fields. */
 .design-select{position:relative;display:block;width:100%;min-width:0}
 .design-select-trigger{width:100%;min-height:48px;display:flex;align-items:center;justify-content:space-between;gap:16px;text-align:left;background:#fff;border:1px solid #9db4c3;border-radius:0;padding:12px 14px;color:#092a3c;font:16px/1.35 Suisse,Arial,sans-serif;transition:border-color .25s,background .25s}
