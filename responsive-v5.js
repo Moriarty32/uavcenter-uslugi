@@ -5,11 +5,9 @@
  price.before(home);
  const explanation=document.querySelector('.price-explanation'),projectFields=document.querySelector('.mobile-project-fields');
  const explanationHome=document.createComment('Desktop explanation position');explanation.before(explanationHome);
- const sectionLabels=['price','results','projects'].map(id=>{const el=document.querySelector(`#${id} .eyebrow`);return {el,text:el.textContent};});
  function prioritize(){
   if(mobile.matches){document.querySelector('.page-nav').after(price);document.querySelector('#estimate-form').after(explanation);}else{home.after(price);explanationHome.after(explanation);}
   explanation.open=!mobile.matches;projectFields.open=!mobile.matches;
-  sectionLabels.forEach(({el,text},i)=>{el.textContent=mobile.matches?text.replace(/^\s*\d+/,String(i+1).padStart(2,'0')):text;});
  }
  mobile.addEventListener('change',prioritize);prioritize();
  // Preserve native controls as the single form value, and enhance only when supported.

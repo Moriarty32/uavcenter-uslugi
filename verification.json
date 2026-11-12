@@ -1,5 +1,5 @@
 {
-  "version": 12,
+  "version": 13,
   "viewports": [
     {
       "width": 320,
@@ -2269,6 +2269,21 @@
       ]
     ],
     "errors": [],
+    "failedRequests": []
+  },
+  "sectionOverlines": {
+    "testedAt": "2026-11-12T11:11:46.430191+00:00",
+    "removed": 16,
+    "mainHeadingsPreserved": true,
+    "mobilePriorityPreserved": true,
+    "checks": [
+      "No static section eyebrows, technical overlines or decorative card indices",
+      "Dynamic map/project locations and form progress retained",
+      "Responsive mobile request reordering works after deleting numbering scripts",
+      "Viewport fit and no horizontal overflow at 10 sizes from 320px to 4K",
+      "Original menus, tabs, map projects, forms, downloads and both hover modes work offline"
+    ],
+    "browserErrors": [],
     "failedRequests": []
   }
 }
